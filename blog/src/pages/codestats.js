@@ -225,16 +225,16 @@ export default class ClientFetchingExample extends Component {
         <SEO />
         <Hero>
           <div className='author'>
-            <img alt='CodeStats' className='author__logo' src={'/code_stats.png'} />
-            <h1 className='author__site-title'>Coding Stats via Code::Stats</h1>
-            <p className='author__intro'>The free stats tracking service for programmers.</p>
+            <img alt='Newsletters' className='author__logo' src={'/assets/newsletter.png'} />
+            <h1 className='author__site-title'>Newsletters</h1>
+            <p className='author__intro'>Sub-heading</p>
           </div>
         </Hero>
         <br />
         <br />
         <Section narrow>
         <LocalContainer>
-          <h2>Summary</h2>
+          <h2>Archive</h2>
             {this.state.loading ? (
               <p>Please hold on, data is loading!</p>
             ) : total_xp ? (

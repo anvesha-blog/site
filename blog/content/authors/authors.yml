@@ -6,7 +6,17 @@
     - url: https://twitter.com/abhay__hegde
     - url: https://instagram.com/abhay__hegde
     - url: https://github.com/abhayhegde
+
+- name: Anvesha
+  bio: |
+    Maintained by Anvesha Content Creation team
+  avatar: ./avatars/anvesha.png
+  social:
+    - url: https://twitter.com/anvesha
+    - url: https://instagram.com/anvesha
+    - url: https://facebook.com/anvesha
   featured: true
+
 
 - name: Sadanand Singh
   bio: |

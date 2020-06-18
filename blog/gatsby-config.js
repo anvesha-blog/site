@@ -11,9 +11,9 @@ const siteMetadata = {
   },
   social: [
     {
-      url: `https://twitter.com/reckoningdev`,
+      url: `https://twitter.com/Anvesha_IISER`,
     },
-    {
+	 {
       url: `https://github.com/sadanand-singh`,
     },
     {
@@ -24,8 +24,11 @@ const siteMetadata = {
       url: `https://stackoverflow.com/users/13244305/reckoningdev`,
     },
     {
-      url: `https://www.facebook.com/sadanand4singh`,
-    }
+		url: `https://www.instagram.com/anvesha.iisertvm`,
+    },
+    {
+      url: `https://www.facebook.com/anvesha.iisertvm`,
+    },
   ],
 };
 

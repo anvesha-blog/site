@@ -151,8 +151,8 @@ const NavigationHeader: React.FC<{}> = () => {
               <LogoLink
                 to="/about/"
                 data-a11y="false"
-                title="About Me"
-                aria-label="About Me"
+                title="About us"
+                aria-label="About us"
                 back="false"
                 home="false"
               >
@@ -162,8 +162,8 @@ const NavigationHeader: React.FC<{}> = () => {
               <LogoLink
                 to="/codestats/"
                 data-a11y="false"
-                title="Code::Stats"
-                aria-label="Code::Stats"
+                title="Newsletters"
+                aria-label="Newsletters"
                 back="false"
                 home="false"
               >
