@@ -98,8 +98,8 @@ const NavigationHeader: React.FC<{}> = () => {
   const { sitePlugin } = useStaticQuery(siteQuery);
 
   const [colorMode] = useColorMode();
-  const fill = colorMode === 'dark' ? '#b2b2b2' : '#495057';
-  const stroke = colorMode !== 'dark' ? '#fff' : '#000';
+  const fill = colorMode === "dark" ? "#fff" : "#000";
+  const notfill = colorMode === "dark" ? "#000" : "#fff";
   const { rootPath, basePath } = sitePlugin.pluginOptions;
 
   useEffect(() => {
@@ -133,7 +133,7 @@ const NavigationHeader: React.FC<{}> = () => {
               <Icons.ChevronLeft fill={fill} />
             </BackArrowIconContainer>
           )}
-          <Logo fill={fill} stroke={stroke} />
+          <Logo fill={fill} />
           <LogoText>Exhibit-A</LogoText>
           <Hidden>Navigate back to the homepage</Hidden>
         </LogoLink>
