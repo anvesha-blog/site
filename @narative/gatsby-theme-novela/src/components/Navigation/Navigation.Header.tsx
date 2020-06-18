@@ -134,7 +134,7 @@ const NavigationHeader: React.FC<{}> = () => {
             </BackArrowIconContainer>
           )}
           <Logo fill={fill} stroke={stroke} />
-          <LogoText>reckoning.dev</LogoText>
+          <LogoText>Exhibit-A</LogoText>
           <Hidden>Navigate back to the homepage</Hidden>
         </LogoLink>
         <NavControls>

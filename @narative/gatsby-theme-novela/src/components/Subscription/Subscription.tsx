@@ -42,14 +42,9 @@ const Subscription: React.FC<{}> = () => {
     <Section narrow>
       <SubscriptionContainer>
         <Content>
-          <Heading>A Note From The Author</Heading>
+          <Heading>Subscribe to our free newsletter!</Heading>
           <Text>
-            I write free resources for people learning machine learning, deep
-            learning and programming. I turn down everyone who offers to put
-            ads, affiliate links, and sponsored posts on my website.
-            <br /> <br />
-            Be the first to receive my latest content with the ability to
-            opt-out at anytime.
+			 Something, something, please subscribe!
           </Text>
           <Form onSubmit={handleSubmit} hasError={error}>
             <Input
