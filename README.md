@@ -25,8 +25,8 @@ Run local server:
 
 ```bash
 ## for development run,
-git clone https://github.com/sadanand-singh/reckoning.dev
-cd reckoning.dev
+git clone https://github.com/anvesha-blog/site.git
+cd site
 yarn
 yarn dev
 
