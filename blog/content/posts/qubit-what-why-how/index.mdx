@@ -1,0 +1,104 @@
+---
+title: The Qubit - What, Why and How?
+date: 2019-05-13
+author: Hari Krishnan
+tags:
+  - Blog
+hero:
+slug: qubit-what-why-how
+excerpt:
+---
+You might have heard of something called a quantum computer and how it
+could be the future of computing, as it can potentially solve the
+problems that were previously intractable on classical computers, that
+is, the computers we use today.
+
+But how are quantum computers able to solve problems that are
+practically impossible on classical computers?
+
+The answer to this lies in the basic unit of quantum information -- the
+quantum bit or the qubit, which is the quantum analog to the binary bit
+of classical information. Unlike the binary bit which consists of only
+two possible states (0 and 1), the qubit states consist of 0, 1 and a
+multitude of superposition (or linear combinations) of the 0 and 1
+states. In quantum computation, we are interested in this purely quantum
+mechanical behaviour and the state of superposition.
+
+To be clear, measurement of the qubit will yield only 0 or 1, but when
+it is in a state of superposition, we can only talk about the
+probabilities of measurement, that is, how probable is the state of 0 or
+1 upon measurement. To visualize the possible states of a qubit,
+consider a sphere in 3 dimensions. The surface of this sphere can be
+used to represent all the states of the qubit, including the 0 and 1
+states. The "North pole" of this sphere represents the 0 state, while
+the "South pole" represents the 1 state. These are the two points
+accessible to a classical binary bit. However, all the other points on
+the surface of this sphere are also possible states for the qubit. Thus,
+we can see that the "state space" accessible to a qubit is much larger
+than that of the binary bit!
+
+![](media/image1.JPG){width="6.268055555555556in"
+height="2.8645833333333335in"}
+
+Why is this significant?
+
+The state space of the qubit (or a system of qubits) is what allows it
+to perform a large number of calculations at once, and gives it
+tremendous potential to solve previously intractable problems. This is
+done using the principle of superposition. But there's a catch. Among
+these large number of different answers which are in a superposition, we
+might want only one (the right answer!), but measurement could yield any
+one of these answers at random. In order to get the right answer, we
+need to get all the wrong answers to destructively interfere with each
+other (where the property of superposition is once again used) so that
+only the state corresponding to the right answer remains. This is one of
+the key features of quantum computation and quantum algorithms are all
+about taking advantage of them.
+
+Few problems like finding the prime factors of any given composite odd
+integer (which is crucial to modern-day cryptographic systems) are
+almost exponentially faster on quantum computers (on paper at least)
+than classical computers. To highlight this, it's practically impossible
+for even the world's largest supercomputers to break a sufficiently
+strong encryption as no efficient non-quantum algorithm for doing so has
+been discovered so far. Therefore, the brute-force method of guessing
+random keys and checking if they work is the only approach. This would
+indeed take an extremely long time and consume a lot of energy for the
+size of encryption keys that we use today. With quantum computers,
+however, this becomes virtually trivial. Some other areas where quantum
+computers can tremendously help are in drug research, molecular
+modelling, better financial models and a whole class of optimization
+problems that are employed in several disciplines.
+
+How far are we in realizing true quantum computers?
+
+Tech giants like Google, Intel, Microsoft, IBM (along with publicly
+funded institutions) have already successfully made quantum computing
+processors that consist of a few dozen qubits. But these are not nearly
+enough to solve problems of practical relevance. These qubits also
+require a high degree of maintenance, requiring them to be kept at
+extremely low temperatures (colder than even the vacuum of deep space!)
+so as to protect them from thermal excitation and other environmental
+noise. This is important because the qubit's pure state of
+superposition, which is an entirely quantum mechanical phenomenon, can
+easily be destroyed by external noise (which can be anything from tiny
+vibrations to stray electromagnetic fields). This destruction of the
+pure state of the qubits is known as decoherence and it can happen all
+too easily, thus rendering the qubits useless. Aside from the
+technological and engineering challenge of fabricating and maintaining
+qubits, there are other auxiliary questions that need to be answered and
+are currently being explored. How do you input signals into a qubit? How
+do you control the qubits so that they behave in the manner that you
+want them to? How do you extract information out of a qubit? How do you
+do all this without destroying the pure state of the qubits, and protect
+them from environmental noise? How do you store quantum information? And
+in the event of decoherence, how do you protect your information from
+possible errors? These are just some of the many questions that
+scientists, engineers and mathematicians working in this field are
+thinking about. There is much progress to be made, but we have already
+come a long way in the past two decades. So there's hope that one day we
+may create a useful, fault-tolerant quantum computer, perhaps in the not
+so distant future.
+
+(This article was originally published on May 13, 2019 by Hari,
+Anvesha.)
