@@ -88,7 +88,7 @@ const FooterContainer = styled.div`
 
 const HoritzontalRule = styled.div`
   position: relative;
-  margin: 140px auto 50px;
+  margin: 40px auto 50px;
   border-bottom: 1px solid ${(p) => p.theme.colors.horizontalRule};
 
   ${mediaqueries.tablet`
@@ -106,7 +106,7 @@ const FooterText = styled.div`
   `}
 
   ${mediaqueries.phablet`
-    margin: 120px auto 100px;
+    margin: 60px auto 60px;
   `}
 `;
 

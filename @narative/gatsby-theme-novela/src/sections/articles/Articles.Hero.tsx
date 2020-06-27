@@ -82,7 +82,7 @@ const SubheadingContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 
   ${mediaqueries.desktop`
     margin-bottom: 80px;
@@ -107,7 +107,7 @@ const GridControlsContainer = styled.div`
 `;
 
 const HeadingContainer = styled.div`
-  margin: 100px 0;
+  margin: 50px 0;
 
   ${mediaqueries.desktop`
     width: 80%;
