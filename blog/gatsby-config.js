@@ -50,8 +50,8 @@ const plugins = [
   {
     resolve: `gatsby-plugin-manifest`,
     options: {
-      name: `reckoning.dev`,
-      short_name: `reckoning`,
+      name: `Anvesha blog`,
+      short_name: `Exhibit A`,
       start_url: `/`,
       background_color: `#fff`,
       theme_color: `#fff`,
