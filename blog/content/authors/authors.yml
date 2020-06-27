@@ -1,12 +1,3 @@
-- name: Abhay Hegde
-  bio: |
-    A Kannadiga from a tiny town with lofty ambitions. He loves traveling in trains, passionately plays simulation games, and enjoys designing in his free time. His favorite destinations include beaches and national forests. He considers himself a student forever, and is always open to meaningful conversations. His favorite hobbies include reading books or blogs and creating content on YouTube.
-  avatar: ./avatars/abhay-hegde.jpg
-  social:
-    - url: https://twitter.com/abhay__hegde
-    - url: https://instagram.com/abhay__hegde
-    - url: https://github.com/abhayhegde
-
 - name: Anvesha
   bio: |
     Maintained by Anvesha Content Creation team
@@ -16,6 +7,37 @@
     - url: https://instagram.com/anvesha
     - url: https://facebook.com/anvesha
   featured: true
+
+
+- name: Abhay Hegde
+  bio: |
+    A Kannadiga from a tiny town with lofty ambitions. He loves traveling in trains, passionately plays simulation games, and enjoys designing in his free time. His favorite destinations include beaches and national forests. He considers himself a student forever, and is always open to meaningful conversations. His favorite hobbies include reading books or blogs and creating content on YouTube.
+  avatar: ./avatars/abhay-hegde.jpg
+  social:
+    - url: https://twitter.com/abhay__hegde
+    - url: https://instagram.com/abhay__hegde
+    - url: https://github.com/abhayhegde
+
+- name: Sadanand Singh
+  bio: |
+    Views of an AI Researcher in health care. Discussions, tutorials, and commentary on deep learning, machine learning, programming, computers and science.
+  avatar: ./avatars/sadanand.jpeg
+  social:
+    - url: https://twitter.com/reckoningdev
+    - url: https://stackoverflow.com/users/13244305/reckoningdev
+    - url: https://www.linkedin.com/in/sadanandsingh/
+    - url: https://www.facebook.com/sadanand4singh
+    - url: https://github.com/sadanand-singh
+
+
+- name: Abha Mundepi
+  bio: |
+    Views of a biologist, agri-tech scientist and a food & cooking passionate. In this space, I mainly plan to put my favorite recipes, and articles.
+  avatar: ./avatars/abha.jpeg
+  social:
+    - url: https://www.linkedin.com/in/abha-mundepi-05943052/
+    - url: https://github.com/abhamundepi
+    - url: https://twitter.com/agtechgirl
 
 - name: Balaram Vishnu Subramani
   bio: |
@@ -110,7 +132,7 @@
 
 - name: Gokul Prabhu
   bio: |
-     At school, Gokul was that kid that seemed never to be paying attention; lost in his own thoughts and ideas. He’s  had insanely crazy ideas ever since he was in diapers. Things never change, though he’s no longer in diapers now. Currently, he’s brainstorming ideas to help understand flora and fauna better. Volunteering for Zooniverse and Smithsonian, listening to podcasts while sipping some filter coffee are his  favourite ways of spending time. He enjoys talking to interesting people and hence ended up having more boomer friends than millennial friends. In his downtime, he relishes one-sided conversations with my friends Ellen and Casey. Sometimes, he opens up Uber and watches the cars move around, that’s when Hozier sings to him. His post-retirement plans include disappearing into a thick rainforest or a tropical island and listening to some good ol’ Jazz.
+     At school, Gokul was that kid that seemed never to be paying attention; lost in his own thoughts and ideas. He’s  had insanely crazy ideas ever since he was in diapers. Things never change, though he’s no longer in diapers now. Currently, he’s brainstorming ideas to help understand flora and fauna better. Volunteering for Zooniverse and Smithsonian, listening to podcasts while sipping some filter coffee are his favourite ways of spending time. He enjoys talking to interesting people and hence ended up having more boomer friends than millennial friends. In his downtime, he relishes one-sided conversations with my friends Ellen and Casey. Sometimes, he opens up Uber and watches the cars move around, that’s when Hozier sings to him. His post-retirement plans include disappearing into a thick rainforest or a tropical island and listening to some good ol’ Jazz.
   avatar: ./avatars/GokulPrabhu.jpg
   social:
     - url: https://twitter.com/GokalPrabhu
@@ -147,17 +169,20 @@
   avatar: ./avatars/SubrabalanMurugesan.jpg
   social:
 
-- name: Siddarth Murali
+- name: Ashley Roby 
   bio: |
-  avatar:
+    Batch `14
+  avatar: ./avatars/anvesha.jpg
   social:
 
 - name: Henika Patel
   bio: |
-  avatar:
+    Batch `14
+  avatar: ./avatars/anvesha.jpg
   social:
 
-- name: Ashley Roby
+- name: Siddarth Murali
   bio: |
-  avatar:
+    Batch `17
+  avatar: ./avatars/anvesha.jpg
   social:
