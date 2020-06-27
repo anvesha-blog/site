@@ -42,7 +42,6 @@ const seoQuery = graphql`
             description
             social {
               url
-              name
             }
             siteUrl
             title

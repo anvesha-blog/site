@@ -13,16 +13,6 @@ const siteMetadata = {
     {
       url: `https://twitter.com/Anvesha_IISER`,
     },
-	 {
-      url: `https://github.com/sadanand-singh`,
-    },
-    {
-      url: `https://www.linkedin.com/in/sadanandsingh/`,
-    },
-    {
-      name: 'stackoverflow',
-      url: `https://stackoverflow.com/users/13244305/reckoningdev`,
-    },
     {
 		url: `https://www.instagram.com/anvesha.iisertvm`,
     },
