@@ -1,13 +1,12 @@
 - name: Anvesha
   bio: |
     Maintained by Anvesha Content Creation team
-  avatar: ./avatars/anvesha.png
+  avatar: ./avatars/anvesha.jpg
   social:
     - url: https://twitter.com/anvesha
     - url: https://instagram.com/anvesha
     - url: https://facebook.com/anvesha
   featured: true
-
 
 - name: Abhay Hegde
   bio: |

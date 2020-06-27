@@ -95,7 +95,7 @@ const ArticleMeta = styled.div<{ hasCoAUthors: boolean }>`
 const Header = styled.header`
   position: relative;
   z-index: 10;
-  margin:100px auto 120px;
+  margin: 70px auto 50px;
   padding-left: 8px;
   max-width: 949px;
 

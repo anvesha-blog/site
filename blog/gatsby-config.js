@@ -73,7 +73,7 @@ const plugins = [
     resolve: "gatsby-plugin-mailchimp",
     options: {
       endpoint:
-        "https://dev.us4.list-manage.com/subscribe/post?u=c585d707ffc4886d6e72faa29&amp;id=840a133461",
+        "https://app.us10.list-manage.com/subscribe/post?u=b76305f5f4e7ae24267918d4f&amp;id=f842a1f8c8",
     },
   },
 ];
