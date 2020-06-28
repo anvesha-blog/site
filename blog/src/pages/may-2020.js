@@ -35,9 +35,9 @@ const Hero = styled.div`
 
 const LocalContainer = styled.div`
   padding: 0 1.5rem;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: auto;
+  margin-left: 20%;
+  margin-right: 45%;
+  margin-bottom: 10%;
   color: ${p => p.theme.colors.primary};
   .large-font {
     font-size: large;
@@ -68,19 +68,32 @@ export default class ClientFetchingExample extends Component {
         <SEO />
         <Hero>
           <div className='author'>
-            <img alt='Newsletters' className='author__logo' src={'/assets/newsletter.png'} />
-            <h1 className='author__site-title'>Newsletters</h1>
-            <p className='author__intro'>Sub-heading</p>
+            <h1 className='author__site-title'>Newsletter Issue - May 2020</h1>
           </div>
         </Hero>
         <br />
         <br />
         <Section narrow>
         <LocalContainer>
-          <h2>Archive</h2>
-			 <a href="../f8538a38bc83683e0aeaa9bde1c7b914/May_20.pdf">
-			 May 2020 
-			 </a>
+		  <p style={{ align: 'center' }}><a href="https://drive.google.com/uc?id=1CNBAKf-r_-qW9v3oT_-_BcmyOolsj95E&export=download">Download this issue</a></p>
+		  &nbsp;
+		  &nbsp;
+		  <iframe title="May-2020" src="https://drive.google.com/file/d/1CNBAKf-r_-qW9v3oT_-_BcmyOolsj95E/preview" width="200%" height="1000" frameborder="0"></iframe>
+		  &nbsp;
+		  &nbsp;
+	 <div id="adobe-dc-view"></div>
+<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+<script type="text/javascript">
+	document.addEventListener("adobe_dc_view_sdk.ready", function(){
+		var adobeDCView = new AdobeDC.View({clientId: "<YOUR_CLIENT_ID>", divId: "adobe-dc-view"});
+		adobeDCView.previewFile({
+			content:{location: {url: "https://documentcloud.adobe.com/view-sdk-demo/PDFs/Bodea Brochure.pdf"}},
+			metaData:{fileName: "Bodea Brochure.pdf"}
+		}, {defaultViewMode: "FIT_WIDTH"});
+	});
+</script>
+		  &nbsp;
+		  &nbsp;
         </LocalContainer>
         </Section>
       </Layout>
