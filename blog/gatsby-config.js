@@ -60,13 +60,9 @@ const plugins = [
     },
   },
   {
-    resolve: `gatsby-plugin-google-tagmanager`,
+    resolve: `gatsby-plugin-goatcounter`,
     options: {
-      id: "GTM-TN5XB2V",
-
-      // Include GTM in development.
-      // Defaults to false meaning GTM will only be loaded in production.
-      includeInDevelopment: true,
+		code: "anveshablog",
     },
   },
   {
