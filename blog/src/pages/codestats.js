@@ -35,9 +35,9 @@ const Hero = styled.div`
 
 const LocalContainer = styled.div`
   padding: 0 1.5rem;
-  margin-left: 20%;
-  margin-right: 45%;
-  margin-bottom: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
   color: ${p => p.theme.colors.primary};
   .large-font {
     font-size: large;
@@ -68,21 +68,19 @@ export default class ClientFetchingExample extends Component {
         <SEO />
         <Hero>
           <div className='author'>
-            <h1 className='author__site-title'>Newsletter Issue - May 2020</h1>
+            <img alt='Newsletters' className='author__logo' src={'/assets/newsletter.png'} />
+            <h1 className='author__site-title'>Newsletters</h1>
+            <p className='author__intro'>Sub-heading</p>
           </div>
         </Hero>
         <br />
         <br />
         <Section narrow>
         <LocalContainer>
-		  <p style={{ align: 'center' }}><a href="https://drive.google.com/uc?id=1CNBAKf-r_-qW9v3oT_-_BcmyOolsj95E&export=download">Download this issue</a></p>
-		  &nbsp;
-		  &nbsp;
-		  <iframe title="May-2020" src="https://drive.google.com/file/d/1CNBAKf-r_-qW9v3oT_-_BcmyOolsj95E/preview" width="200%" height="1000" frameborder="0"></iframe>
-		  &nbsp;
-		  &nbsp;
-		  &nbsp;
-		  &nbsp;
+          <h2>Archive</h2>
+			 <a href="../f8538a38bc83683e0aeaa9bde1c7b914/May_20.pdf">
+			 May 2020 
+			 </a>
         </LocalContainer>
         </Section>
       </Layout>
