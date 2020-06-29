@@ -44,7 +44,7 @@ const Subscription: React.FC<{}> = () => {
         <Content>
           <Heading>Subscribe to our free newsletter!</Heading>
           <Text>
-			 Something, something, please subscribe!
+			 Subscribe to our monthly newsletter to get the latest and most exciting news in science!
           </Text>
           <Form onSubmit={handleSubmit} hasError={error}>
             <Input
