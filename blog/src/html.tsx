@@ -14,6 +14,8 @@ export default props => (
         dangerouslySetInnerHTML={{ __html: `document.domain = "narative.co"` }}
       />
       {props.headComponents}
+		<script data-goatcounter="https://anveshablog.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
     </head>
     <body {...props.bodyAttributes}>
       {props.preBodyComponents}

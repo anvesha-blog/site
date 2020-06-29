@@ -160,7 +160,7 @@ const NavigationHeader: React.FC<{}> = () => {
                 <Hidden>About Me</Hidden>
               </LogoLink>
               <LogoLink
-                to="/codestats/"
+                to="/newsletters/"
                 data-a11y="false"
                 title="Newsletters"
                 aria-label="Newsletters"
