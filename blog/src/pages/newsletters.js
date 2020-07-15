@@ -105,7 +105,7 @@ export default class ClientFetchingExample extends Component {
 			 }}>
 				<Image src={"https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=2048&q=20"} />
 				<Heading><a href="../june-2020"><Text>June 2020</Text></a></Heading>
-				<Text>Issue 9</Text>
+				<Text>Issue 10</Text>
 			 </Card>
 			 <Card width={256}
 			 sx={{
