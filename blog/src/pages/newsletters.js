@@ -71,7 +71,7 @@ const LocalContainer = styled.div`
     margin-inline-end: 0px;
   }
   a {
-	 color: maroon;
+	 color: #191449;
   }
 `;
 
@@ -100,6 +100,7 @@ export default class ClientFetchingExample extends Component {
 			 <Card width={256}
 			 sx={{
 				p: 2,
+				bg: '#caf6ae',
 				borderRadius: 2,
 				boxShadow: '0 0 16px rgba(0, 0, 0, 0.5)',
 			 }}>
@@ -110,6 +111,7 @@ export default class ClientFetchingExample extends Component {
 			 <Card width={256}
 			 sx={{
 				p: 2,
+				bg: '#caf6ae',
 				borderRadius: 2,
 				boxShadow: '0 0 16px rgba(0, 0, 0, .5)',
 			 }}>
@@ -120,6 +122,7 @@ export default class ClientFetchingExample extends Component {
 			 <Card width={256}
 			 sx={{
 				p: 2,
+				bg: '#caf6ae',
 				borderRadius: 2,
 				boxShadow: '0 0 16px rgba(0, 0, 0, 0.5)',
 			 }}>
@@ -130,6 +133,7 @@ export default class ClientFetchingExample extends Component {
 			 <Card width={256}
 			 sx={{
 				p: 2,
+				bg: '#caf6ae',
 				borderRadius: 2,
 				boxShadow: '0 0 16px rgba(0, 0, 0, 0.5)',
 			 }}>
@@ -140,6 +144,7 @@ export default class ClientFetchingExample extends Component {
 			 <Card width={256}
 			 sx={{
 				p: 2,
+				bg: '#caf6ae',
 				borderRadius: 2,
 				boxShadow: '0 0 16px rgba(0, 0, 0, 0.5)',
 			 }}>
@@ -150,6 +155,7 @@ export default class ClientFetchingExample extends Component {
 			 <Card width={256}
 			 sx={{
 				p: 2,
+				bg: '#caf6ae',
 				borderRadius: 2,
 				boxShadow: '0 0 16px rgba(0, 0, 0, 0.5)',
 			 }}>
@@ -160,6 +166,7 @@ export default class ClientFetchingExample extends Component {
 			 <Card width={256}
 			 sx={{
 				p: 2,
+				bg: '#caf6ae',
 				borderRadius: 2,
 				boxShadow: '0 0 16px rgba(0, 0, 0, 0.5)',
 			 }}>
@@ -170,6 +177,7 @@ export default class ClientFetchingExample extends Component {
 			 <Card width={256}
 			 sx={{
 				p: 2,
+				bg: '#caf6ae',
 				borderRadius: 2,
 				boxShadow: '0 0 16px rgba(0, 0, 0, 0.5)',
 			 }}>
@@ -180,6 +188,7 @@ export default class ClientFetchingExample extends Component {
 			 <Card width={256}
 			 sx={{
 				p: 2,
+				bg: '#caf6ae',
 				borderRadius: 2,
 				boxShadow: '0 0 16px rgba(0, 0, 0, 0.5)',
 			 }}>
@@ -190,6 +199,7 @@ export default class ClientFetchingExample extends Component {
 			 <Card width={256}
 			 sx={{
 				p: 2,
+				bg: '#caf6ae',
 				borderRadius: 2,
 				boxShadow: '0 0 16px rgba(0, 0, 0, 0.5)',
 			 }}>
@@ -200,6 +210,7 @@ export default class ClientFetchingExample extends Component {
 			 <Card width={256}
 			 sx={{
 				p: 2,
+				bg: '#caf6ae',
 				borderRadius: 2,
 				boxShadow: '0 0 16px rgba(0, 0, 0, 0.5)',
 			 }}>
