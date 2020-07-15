@@ -3,6 +3,13 @@ import Section from "@components/Section";
 import SEO from "@components/SEO";
 import Layout from  "@components/Layout"
 import styled from '@emotion/styled';
+import {
+  Box,
+  Card,
+  Image,
+  Heading,
+  Text
+} from 'rebass'
 
 const Hero = styled.div`
   background-color: ${p => p.theme.colors.hero};
@@ -43,13 +50,17 @@ const LocalContainer = styled.div`
     font-size: large;
     font-weight: 600;
   }
-  h2 {
-    font-size: 3rem;
+  h2,h3 {
+    font-size: 2.8rem;
+	 font-family: Helvetica;
     line-height: 1.3;
-    margin: 0 0 2rem;
+    margin: 1rem 0 2rem;
     border-bottom: 2px solid ${p => p.theme.colors.horizontalRule};
     padding-bottom: .5rem;
     font-weight: 500;
+  }
+  h3 {
+    font-weight: 400;
   }
   p {
     font-size: 1.8rem;
@@ -58,7 +69,10 @@ const LocalContainer = styled.div`
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-}
+  }
+  a {
+	 color: maroon;
+  }
 `;
 
 export default class ClientFetchingExample extends Component {
@@ -68,9 +82,8 @@ export default class ClientFetchingExample extends Component {
         <SEO />
         <Hero>
           <div className='author'>
-            <img alt='Newsletters' className='author__logo' src={'/assets/newsletter.png'} />
+            <img alt='Newsletters' className='author__logo' src={'/src/assets/newsletter.png'} />
             <h1 className='author__site-title'>Newsletters</h1>
-            <p className='author__intro'>Sub-heading</p>
           </div>
         </Hero>
         <br />
@@ -78,9 +91,113 @@ export default class ClientFetchingExample extends Component {
         <Section narrow>
         <LocalContainer>
           <h2>Archive</h2>
-			 <a href="../may-2020">
-			 May 2020 
-			 </a>
+		  <Box
+			 sx={{
+				display: 'grid',
+				gridGap: 3,
+				gridTemplateColumns: 'repeat(auto-fit, minmax(256px, 1fr))',
+		  }}>
+			 <Card width={256}
+			 sx={{
+				p: 1,
+				borderRadius: 2,
+				boxShadow: '0 0 16px rgba(0, 0, 0, .25)',
+			 }}>
+				<Image src={"https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=2048&q=20"} />
+				<Heading><a href="../may-2020"><Text>May 2020</Text></a></Heading>
+				<Text>Issue 9</Text>
+			 </Card>
+			 <Card width={256}
+			 sx={{
+				p: 1,
+				borderRadius: 2,
+				boxShadow: '0 0 16px rgba(0, 0, 0, .25)',
+			 }}>
+				<Image src={"https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=2048&q=20"} />
+				<Heading><a href="../april-2020">April 2020</a></Heading>
+				<Text>Issue 8</Text>
+			 </Card>
+			 <Card width={256}
+			 sx={{
+				p: 1,
+				borderRadius: 2,
+				boxShadow: '0 0 16px rgba(0, 0, 0, .25)',
+			 }}>
+				<Image src={"https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=2048&q=20"} />
+				<Heading as='h3'><a href="../covid-pamphlet">COVID Pamphlet</a></Heading>
+				<Text>Special Issue</Text>
+			 </Card>
+			 <Card width={256}
+			 sx={{
+				p: 1,
+				borderRadius: 2,
+				boxShadow: '0 0 16px rgba(0, 0, 0, .25)',
+			 }}>
+				<Image src={"https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=2048&q=20"} />
+				<Heading><a href="../march-2020">March 2020</a></Heading>
+				<Text>Issue 7</Text>
+			 </Card>
+			 <Card width={256}
+			 sx={{
+				p: 1,
+				borderRadius: 2,
+				boxShadow: '0 0 16px rgba(0, 0, 0, .25)',
+			 }}>
+				<Image src={"https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=2048&q=20"} />
+				<Heading><a href="../febraury-2020">Febraury 2020</a></Heading>
+				<Text>Issue 6</Text>
+			 </Card>
+			 <Card width={256}
+			 sx={{
+				p: 1,
+				borderRadius: 2,
+				boxShadow: '0 0 16px rgba(0, 0, 0, .25)',
+			 }}>
+				<Image src={"https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=2048&q=20"} />
+				<Heading><a href="../january-2020">January 2020</a></Heading>
+				<Text>Issue 5</Text>
+			 </Card>
+			 <Card width={256}
+			 sx={{
+				p: 1,
+				borderRadius: 2,
+				boxShadow: '0 0 16px rgba(0, 0, 0, .25)',
+			 }}>
+				<Image src={"https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=2048&q=20"} />
+				<Heading><a href="../december-2019">December 2019</a></Heading>
+				<Text>Issue 4</Text>
+			 </Card>
+			 <Card width={256}
+			 sx={{
+				p: 1,
+				borderRadius: 2,
+				boxShadow: '0 0 16px rgba(0, 0, 0, .25)',
+			 }}>
+				<Image src={"https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=2048&q=20"} />
+				<Heading><a href="../november-2019">November 2019</a></Heading>
+				<Text>Issue 3</Text>
+			 </Card>
+			 <Card width={256}
+			 sx={{
+				p: 1,
+				borderRadius: 2,
+				boxShadow: '0 0 16px rgba(0, 0, 0, .25)',
+			 }}>
+				<Image src={"https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=2048&q=20"} />
+				<Heading><a href="../october-2019">October 2019</a></Heading>
+				<Text>Issue 2</Text>
+			 </Card>
+			 <Card width={256}
+			 sx={{
+				p: 1,
+				borderRadius: 2,
+				boxShadow: '0 0 16px rgba(0, 0, 0, .25)',
+			 }}>
+				<Image src={"https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=2048&q=20"} />
+				<Heading><a href="../september-2019">September 2019</a></Heading>
+				<Text>Issue 1</Text>
+			 </Card>
+		  </Box>  
         </LocalContainer>
         </Section>
       </Layout>

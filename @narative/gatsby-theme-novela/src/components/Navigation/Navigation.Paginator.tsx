@@ -99,7 +99,7 @@ class Paginator extends Component<IPaginator, {}> {
         <PageNumberBUtton
           key={`PaginatorPage_${page}`}
           to={this.getFullPath(page)}
-          style={{ opacity: current === page ? 1 : 0.3 }}
+          style={{ opacity: current === page ? 1 : 0.5 }}
           className="Paginator__pageLink"
         >
           {page}
