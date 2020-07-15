@@ -97,12 +97,13 @@ export default class ClientFetchingExample extends Component {
 				gridGap: 3,
 				gridRowGap: 5,
 				gridTemplateColumns: 'repeat(auto-fit, minmax(256px, 1fr))',
+				margin: '2em 0',
 		  }}>
 			 <Card width={256}
 			 sx={{
 				p: 2,
 				bg: '#dddddd',
-				borderRadius: 2,
+				borderRadius: 5,
 				boxShadow: '0 0 16px rgba(0, 0, 0, 0.4)',
 			 }}>
 				<Image src={"https://i.imgur.com/xZqTSK5m.jpg"} />
@@ -113,7 +114,7 @@ export default class ClientFetchingExample extends Component {
 			 sx={{
 				p: 2,
 				bg: '#dddddd',
-				borderRadius: 2,
+				borderRadius: 5,
 				boxShadow: '0 0 16px rgba(0, 0, 0, 0.4)',
 			 }}>
 				<Image src={"https://i.imgur.com/xZqTSK5.jpg"} />
@@ -124,7 +125,7 @@ export default class ClientFetchingExample extends Component {
 			 sx={{
 				p: 2,
 				bg: '#dddddd',
-				borderRadius: 2,
+				borderRadius: 5,
 				boxShadow: '0 0 16px rgba(0, 0, 0, 0.4)',
 			 }}>
 				<Image src={"https://i.imgur.com/x0e9spD.jpg"} />
@@ -135,7 +136,7 @@ export default class ClientFetchingExample extends Component {
 			 sx={{
 				p: 2,
 				bg: '#dddddd',
-				borderRadius: 2,
+				borderRadius: 5,
 				boxShadow: '0 0 16px rgba(0, 0, 0, 0.4)',
 			 }}>
 				<Image src={"https://i.imgur.com/3cW94io.jpg"} />
@@ -146,7 +147,7 @@ export default class ClientFetchingExample extends Component {
 			 sx={{
 				p: 2,
 				bg: '#dddddd',
-				borderRadius: 2,
+				borderRadius: 5,
 				boxShadow: '0 0 16px rgba(0, 0, 0, 0.4)',
 			 }}>
 				<Image src={"https://i.imgur.com/5ApJh0X.jpg"} />
@@ -157,7 +158,7 @@ export default class ClientFetchingExample extends Component {
 			 sx={{
 				p: 2,
 				bg: '#dddddd',
-				borderRadius: 2,
+				borderRadius: 5,
 				boxShadow: '0 0 16px rgba(0, 0, 0, 0.4)',
 			 }}>
 				<Image src={"https://i.imgur.com/SedbMNh.png"} />
@@ -168,7 +169,7 @@ export default class ClientFetchingExample extends Component {
 			 sx={{
 				p: 2,
 				bg: '#dddddd',
-				borderRadius: 2,
+				borderRadius: 5,
 				boxShadow: '0 0 16px rgba(0, 0, 0, 0.4)',
 			 }}>
 				<Image src={"https://i.imgur.com/7SVXQgMm.jpg"} />
@@ -179,7 +180,7 @@ export default class ClientFetchingExample extends Component {
 			 sx={{
 				p: 2,
 				bg: '#dddddd',
-				borderRadius: 2,
+				borderRadius: 5,
 				boxShadow: '0 0 16px rgba(0, 0, 0, 0.4)',
 			 }}>
 				<Image src={"https://i.imgur.com/a2xgTKF.jpg"} />
@@ -190,7 +191,7 @@ export default class ClientFetchingExample extends Component {
 			 sx={{
 				p: 2,
 				bg: '#dddddd',
-				borderRadius: 2,
+				borderRadius: 5,
 				boxShadow: '0 0 16px rgba(0, 0, 0, 0.4)',
 			 }}>
 				<Image src={"https://i.imgur.com/rRel9wF.jpg"} />
@@ -201,7 +202,7 @@ export default class ClientFetchingExample extends Component {
 			 sx={{
 				p: 2,
 				bg: '#dddddd',
-				borderRadius: 2,
+				borderRadius: 5,
 				boxShadow: '0 0 16px rgba(0, 0, 0, 0.4)',
 			 }}>
 				<Image src={"https://i.imgur.com/zSbNHc0.jpg"} />
@@ -212,7 +213,7 @@ export default class ClientFetchingExample extends Component {
 			 sx={{
 				p: 2,
 				bg: '#dddddd',
-				borderRadius: 2,
+				borderRadius: 5,
 				boxShadow: '0 0 16px rgba(0, 0, 0, 0.4)',
 			 }}>
 				<Image src={"https://i.imgur.com/ywhAmBr.jpg"} />
