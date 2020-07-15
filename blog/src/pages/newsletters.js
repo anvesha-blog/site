@@ -103,7 +103,7 @@ export default class ClientFetchingExample extends Component {
 				borderRadius: 2,
 				boxShadow: '0 0 16px rgba(0, 0, 0, .25)',
 			 }}>
-				<Image src={"https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=2048&q=20"} />
+				<Image src={"../images/newsletter.png"} />
 				<Heading><a href="../june-2020"><Text>June 2020</Text></a></Heading>
 				<Text>Issue 10</Text>
 			 </Card>

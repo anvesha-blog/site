@@ -48,6 +48,13 @@ const plugins = [
     }
   },
   {
+    resolve: 'gatsby-source-filesystem',
+    options: {
+      name: 'images',
+      path: `${__dirname}/images/`
+    }
+  },
+  {
     resolve: `gatsby-plugin-manifest`,
     options: {
       name: `Anvesha blog`,

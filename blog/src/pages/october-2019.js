@@ -35,8 +35,6 @@ const Hero = styled.div`
 
 const LocalContainer = styled.div`
   padding: 0 1.5rem;
-  margin-left: 20%;
-  margin-right: 45%;
   margin-bottom: 10%;
   color: ${p => p.theme.colors.primary};
   .large-font {
@@ -75,10 +73,10 @@ export default class ClientFetchingExample extends Component {
         <br />
         <Section narrow>
         <LocalContainer>
-		  <p><a href="https://drive.google.com/uc?id=1CNBAKf-r_-qW9v3oT_-_BcmyOolsj95E&export=download">Download this issue</a></p>
+		  <a href="https://drive.google.com/uc?id=1CNBAKf-r_-qW9v3oT_-_BcmyOolsj95E&export=download">Download this issue</a>
 		  &nbsp;
 		  &nbsp;
-		  <iframe title="May-2020" src="https://drive.google.com/file/d/1CNBAKf-r_-qW9v3oT_-_BcmyOolsj95E/preview" width="200%" height="1000" frameborder="0" allowfullscreen="true"></iframe>
+		  <iframe title="May-2020" src="https://drive.google.com/file/d/1CNBAKf-r_-qW9v3oT_-_BcmyOolsj95E/preview" width="100%" height="800" frameborder="0" allowfullscreen="true"></iframe>
 		  &nbsp;
 		  &nbsp;
 		  &nbsp;
