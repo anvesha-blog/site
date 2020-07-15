@@ -48,6 +48,14 @@ const plugins = [
     }
   },
   {
+	 resolve: 'gatsby-plugin-google-fonts',
+	 options: {
+		fonts: [
+		  `Megrim`,
+		]
+	 }
+  },
+  {
     resolve: `gatsby-plugin-manifest`,
     options: {
       name: `Anvesha blog`,

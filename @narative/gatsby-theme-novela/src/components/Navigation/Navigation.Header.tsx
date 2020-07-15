@@ -203,9 +203,9 @@ const LogoText = styled.div`
   font-size: 18px;
   color: ${(p) => p.theme.colors.primary};
   display: block;
-  margin: -5px 0px 0px 10px;
-  font: normal 1.6em 'Fira Sans', serif;
-  font-weight: 600;
+  margin: -5px 0px 0px 15px;
+  font: normal 2.4em 'Megrim', serif;
+  font-weight: 800;
 
   ${mediaqueries.tablet`
       display: none;

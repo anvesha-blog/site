@@ -100,9 +100,9 @@ export default class ClientFetchingExample extends Component {
 			 <Card width={256}
 			 sx={{
 				p: 2,
-				bg: '#caf6ae',
+				bg: '#dddddd',
 				borderRadius: 2,
-				boxShadow: '0 0 16px rgba(0, 0, 0, 0.5)',
+				boxShadow: '0 0 16px rgba(0, 0, 0, 0.4)',
 			 }}>
 				<Image src={"https://i.imgur.com/xZqTSK5m.jpg"} />
 				<Heading><a href="../june-2020"><Text>June 2020</Text></a></Heading>
@@ -111,9 +111,9 @@ export default class ClientFetchingExample extends Component {
 			 <Card width={256}
 			 sx={{
 				p: 2,
-				bg: '#caf6ae',
+				bg: '#dddddd',
 				borderRadius: 2,
-				boxShadow: '0 0 16px rgba(0, 0, 0, .5)',
+				boxShadow: '0 0 16px rgba(0, 0, 0, 0.4)',
 			 }}>
 				<Image src={"https://i.imgur.com/xZqTSK5.jpg"} />
 				<Heading><a href="../may-2020"><Text>May 2020</Text></a></Heading>
@@ -122,9 +122,9 @@ export default class ClientFetchingExample extends Component {
 			 <Card width={256}
 			 sx={{
 				p: 2,
-				bg: '#caf6ae',
+				bg: '#dddddd',
 				borderRadius: 2,
-				boxShadow: '0 0 16px rgba(0, 0, 0, 0.5)',
+				boxShadow: '0 0 16px rgba(0, 0, 0, 0.4)',
 			 }}>
 				<Image src={"https://i.imgur.com/x0e9spD.jpg"} />
 				<Heading><a href="../april-2020">April 2020</a></Heading>
@@ -133,9 +133,9 @@ export default class ClientFetchingExample extends Component {
 			 <Card width={256}
 			 sx={{
 				p: 2,
-				bg: '#caf6ae',
+				bg: '#dddddd',
 				borderRadius: 2,
-				boxShadow: '0 0 16px rgba(0, 0, 0, 0.5)',
+				boxShadow: '0 0 16px rgba(0, 0, 0, 0.4)',
 			 }}>
 				<Image src={"https://i.imgur.com/3cW94io.jpg"} />
 				<Heading as='h3'><a href="../covid-pamphlet">COVID Pamphlet</a></Heading>
@@ -144,9 +144,9 @@ export default class ClientFetchingExample extends Component {
 			 <Card width={256}
 			 sx={{
 				p: 2,
-				bg: '#caf6ae',
+				bg: '#dddddd',
 				borderRadius: 2,
-				boxShadow: '0 0 16px rgba(0, 0, 0, 0.5)',
+				boxShadow: '0 0 16px rgba(0, 0, 0, 0.4)',
 			 }}>
 				<Image src={"https://i.imgur.com/5ApJh0X.jpg"} />
 				<Heading><a href="../march-2020">March 2020</a></Heading>
@@ -155,9 +155,9 @@ export default class ClientFetchingExample extends Component {
 			 <Card width={256}
 			 sx={{
 				p: 2,
-				bg: '#caf6ae',
+				bg: '#dddddd',
 				borderRadius: 2,
-				boxShadow: '0 0 16px rgba(0, 0, 0, 0.5)',
+				boxShadow: '0 0 16px rgba(0, 0, 0, 0.4)',
 			 }}>
 				<Image src={"https://i.imgur.com/SedbMNh.png"} />
 				<Heading><a href="../febraury-2020">Febraury 2020</a></Heading>
@@ -166,9 +166,9 @@ export default class ClientFetchingExample extends Component {
 			 <Card width={256}
 			 sx={{
 				p: 2,
-				bg: '#caf6ae',
+				bg: '#dddddd',
 				borderRadius: 2,
-				boxShadow: '0 0 16px rgba(0, 0, 0, 0.5)',
+				boxShadow: '0 0 16px rgba(0, 0, 0, 0.4)',
 			 }}>
 				<Image src={"https://i.imgur.com/7SVXQgMm.jpg"} />
 				<Heading><a href="../january-2020">January 2020</a></Heading>
@@ -177,9 +177,9 @@ export default class ClientFetchingExample extends Component {
 			 <Card width={256}
 			 sx={{
 				p: 2,
-				bg: '#caf6ae',
+				bg: '#dddddd',
 				borderRadius: 2,
-				boxShadow: '0 0 16px rgba(0, 0, 0, 0.5)',
+				boxShadow: '0 0 16px rgba(0, 0, 0, 0.4)',
 			 }}>
 				<Image src={"https://i.imgur.com/a2xgTKF.jpg"} />
 				<Heading><a href="../december-2019">December 2019</a></Heading>
@@ -188,9 +188,9 @@ export default class ClientFetchingExample extends Component {
 			 <Card width={256}
 			 sx={{
 				p: 2,
-				bg: '#caf6ae',
+				bg: '#dddddd',
 				borderRadius: 2,
-				boxShadow: '0 0 16px rgba(0, 0, 0, 0.5)',
+				boxShadow: '0 0 16px rgba(0, 0, 0, 0.4)',
 			 }}>
 				<Image src={"https://i.imgur.com/rRel9wF.jpg"} />
 				<Heading><a href="../november-2019">November 2019</a></Heading>
@@ -199,9 +199,9 @@ export default class ClientFetchingExample extends Component {
 			 <Card width={256}
 			 sx={{
 				p: 2,
-				bg: '#caf6ae',
+				bg: '#dddddd',
 				borderRadius: 2,
-				boxShadow: '0 0 16px rgba(0, 0, 0, 0.5)',
+				boxShadow: '0 0 16px rgba(0, 0, 0, 0.4)',
 			 }}>
 				<Image src={"https://i.imgur.com/zSbNHc0.jpg"} />
 				<Heading><a href="../october-2019">October 2019</a></Heading>
@@ -210,9 +210,9 @@ export default class ClientFetchingExample extends Component {
 			 <Card width={256}
 			 sx={{
 				p: 2,
-				bg: '#caf6ae',
+				bg: '#dddddd',
 				borderRadius: 2,
-				boxShadow: '0 0 16px rgba(0, 0, 0, 0.5)',
+				boxShadow: '0 0 16px rgba(0, 0, 0, 0.4)',
 			 }}>
 				<Image src={"https://i.imgur.com/ywhAmBr.jpg"} />
 				<Heading><a href="../september-2019">September 2019</a></Heading>
