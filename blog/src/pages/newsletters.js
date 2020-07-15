@@ -23,7 +23,7 @@ const Hero = styled.div`
     text-align: center;
     padding: 0.5rem 0.75rem;
     &__logo {
-      border-radius: 100%;
+      border-radius: 10%;
       width: 60px;
       height: 60px;
       margin-bottom: 2em;
@@ -55,7 +55,7 @@ const LocalContainer = styled.div`
 	 font-family: Helvetica;
     line-height: 1.3;
     margin: 1rem 0 2rem;
-    border-bottom: 2px solid ${p => p.theme.colors.horizontalRule};
+    border-bottom: 2px solid rgba(8,8,11,0.15);
     padding-bottom: .5rem;
     font-weight: 500;
   }
@@ -82,7 +82,7 @@ export default class ClientFetchingExample extends Component {
         <SEO />
         <Hero>
           <div className='author'>
-            <img alt='Newsletters' className='author__logo' src={'/src/assets/newsletter.png'} />
+            <img alt='Newsletters' className='author__logo' src={'https://i.imgur.com/BvD7wOes.png'} />
             <h1 className='author__site-title'>Newsletters</h1>
           </div>
         </Hero>
@@ -106,7 +106,7 @@ export default class ClientFetchingExample extends Component {
 			 }}>
 				<Image src={"https://i.imgur.com/xZqTSK5m.jpg"} />
 				<Heading><a href="../june-2020"><Text>June 2020</Text></a></Heading>
-				<Text>Issue 10</Text>
+				<Text color='#111'>Issue 10</Text>
 			 </Card>
 			 <Card width={256}
 			 sx={{
@@ -117,7 +117,7 @@ export default class ClientFetchingExample extends Component {
 			 }}>
 				<Image src={"https://i.imgur.com/xZqTSK5.jpg"} />
 				<Heading><a href="../may-2020"><Text>May 2020</Text></a></Heading>
-				<Text>Issue 9</Text>
+				<Text color='#111'>Issue 9</Text>
 			 </Card>
 			 <Card width={256}
 			 sx={{
@@ -128,7 +128,7 @@ export default class ClientFetchingExample extends Component {
 			 }}>
 				<Image src={"https://i.imgur.com/x0e9spD.jpg"} />
 				<Heading><a href="../april-2020">April 2020</a></Heading>
-				<Text>Issue 8</Text>
+				<Text color='#111'>Issue 8</Text>
 			 </Card>
 			 <Card width={256}
 			 sx={{
@@ -139,7 +139,7 @@ export default class ClientFetchingExample extends Component {
 			 }}>
 				<Image src={"https://i.imgur.com/3cW94io.jpg"} />
 				<Heading as='h3'><a href="../covid-pamphlet">COVID Pamphlet</a></Heading>
-				<Text>Special Issue</Text>
+				<Text color='#111'>Special Issue</Text>
 			 </Card>
 			 <Card width={256}
 			 sx={{
@@ -150,7 +150,7 @@ export default class ClientFetchingExample extends Component {
 			 }}>
 				<Image src={"https://i.imgur.com/5ApJh0X.jpg"} />
 				<Heading><a href="../march-2020">March 2020</a></Heading>
-				<Text>Issue 7</Text>
+				<Text color='#111'>Issue 7</Text>
 			 </Card>
 			 <Card width={256}
 			 sx={{
@@ -161,7 +161,7 @@ export default class ClientFetchingExample extends Component {
 			 }}>
 				<Image src={"https://i.imgur.com/SedbMNh.png"} />
 				<Heading><a href="../febraury-2020">Febraury 2020</a></Heading>
-				<Text>Issue 6</Text>
+				<Text color='#111'>Issue 6</Text>
 			 </Card>
 			 <Card width={256}
 			 sx={{
@@ -172,7 +172,7 @@ export default class ClientFetchingExample extends Component {
 			 }}>
 				<Image src={"https://i.imgur.com/7SVXQgMm.jpg"} />
 				<Heading><a href="../january-2020">January 2020</a></Heading>
-				<Text>Issue 5</Text>
+				<Text color='#111'>Issue 5</Text>
 			 </Card>
 			 <Card width={256}
 			 sx={{
@@ -183,7 +183,7 @@ export default class ClientFetchingExample extends Component {
 			 }}>
 				<Image src={"https://i.imgur.com/a2xgTKF.jpg"} />
 				<Heading><a href="../december-2019">December 2019</a></Heading>
-				<Text>Issue 4</Text>
+				<Text color='#111'>Issue 4</Text>
 			 </Card>
 			 <Card width={256}
 			 sx={{
@@ -194,7 +194,7 @@ export default class ClientFetchingExample extends Component {
 			 }}>
 				<Image src={"https://i.imgur.com/rRel9wF.jpg"} />
 				<Heading><a href="../november-2019">November 2019</a></Heading>
-				<Text>Issue 3</Text>
+				<Text color='#111'>Issue 3</Text>
 			 </Card>
 			 <Card width={256}
 			 sx={{
@@ -205,7 +205,7 @@ export default class ClientFetchingExample extends Component {
 			 }}>
 				<Image src={"https://i.imgur.com/zSbNHc0.jpg"} />
 				<Heading><a href="../october-2019">October 2019</a></Heading>
-				<Text>Issue 2</Text>
+				<Text color='#111'>Issue 2</Text>
 			 </Card>
 			 <Card width={256}
 			 sx={{
@@ -216,7 +216,7 @@ export default class ClientFetchingExample extends Component {
 			 }}>
 				<Image src={"https://i.imgur.com/ywhAmBr.jpg"} />
 				<Heading><a href="../september-2019">September 2019</a></Heading>
-				<Text>Issue 1</Text>
+				<Text color='#111'>Issue 1</Text>
 			 </Card>
 		  </Box>  
         </LocalContainer>

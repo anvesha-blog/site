@@ -12,7 +12,7 @@ export default {
   tagText: '#0b5345',
   accent: '#6166DC',
   hover: 'rgba(0, 0, 0, 0.07)',
-  gradient: 'linear-gradient(180deg, rgba(217, 219, 224, 0) 0%, #D9DBE0 100%)',
+  gradient: 'none',
   articleText: '#08080B',
   track: 'rgba(8, 8, 11, 0.3)',
   progress: '#000',
