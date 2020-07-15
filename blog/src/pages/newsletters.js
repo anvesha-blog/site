@@ -95,6 +95,7 @@ export default class ClientFetchingExample extends Component {
 			 sx={{
 				display: 'grid',
 				gridGap: 3,
+				gridRowGap: 5,
 				gridTemplateColumns: 'repeat(auto-fit, minmax(256px, 1fr))',
 		  }}>
 			 <Card width={256}
