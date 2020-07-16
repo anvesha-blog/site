@@ -72,6 +72,10 @@ const LocalContainer = styled.div`
   }
   a {
 	 color: #191449;
+
+	 &:hover{
+		color: crimson;
+	 }
   }
 `;
 
@@ -83,14 +87,13 @@ export default class ClientFetchingExample extends Component {
         <Hero>
           <div className='author'>
             <img alt='Newsletters' className='author__logo' src={'https://i.imgur.com/BvD7wOes.png'} />
-            <h1 className='author__site-title'>Newsletters</h1>
+            <h1 className='author__site-title'>Newsletters Archive</h1>
           </div>
         </Hero>
         <br />
         <br />
         <Section narrow>
         <LocalContainer>
-          <h2>Archive</h2>
 		  <Box
 			 sx={{
 				display: 'grid',
@@ -99,127 +102,391 @@ export default class ClientFetchingExample extends Component {
 				gridTemplateColumns: 'repeat(auto-fit, minmax(256px, 1fr))',
 				margin: '2em 0',
 		  }}>
+			 <a href="../june-2020">
 			 <Card width={256}
 			 sx={{
 				p: 2,
 				bg: '#dddddd',
+				zIndex: '0',
+				overflow: 'hidden',
 				borderRadius: 5,
-				boxShadow: '0 0 16px rgba(0, 0, 0, 0.4)',
+				border: '1px solid #dddddd',
+				boxShadow: '0px 0px 2px rgba(38, 38, 38, 0.2)',
+				':hover':{
+				  transition: 'all 0.2s ease-out',
+				  boxShadow: '0px 4px 8px rgba(58, 58, 58, 0.5)',
+				  top: '-4px',
+				  border: '1px solid #cccccc',
+				  backgroundColor: 'white',
+				},
+				':before':{
+				  content: "",
+				  zIndex: '-1',
+   			  background: '#00838d',
+   			  borderRadius: '32px',
+   			  transform: 'scale(2)',
+   			  transformOrigin: '50% 50%',
+   			  transition: 'transform 0.15s ease-out',
+				 },
+				':hover:before':{
+				  transform: 'scale(2.15)',
+				 },
 			 }}>
 				<Image src={"https://i.imgur.com/xZqTSK5m.jpg"} />
-				<Heading><a href="../june-2020"><Text>June 2020</Text></a></Heading>
+				<Heading>June 2020</Heading>
 				<Text color='#111'>Issue 10</Text>
 			 </Card>
+			 </a>
+		    <a href="../may-2020">
 			 <Card width={256}
 			 sx={{
 				p: 2,
 				bg: '#dddddd',
+				zIndex: '0',
+				overflow: 'hidden',
 				borderRadius: 5,
-				boxShadow: '0 0 16px rgba(0, 0, 0, 0.4)',
+				border: '1px solid #dddddd',
+				boxShadow: '0px 0px 2px rgba(38, 38, 38, 0.2)',
+				':hover':{
+				  transition: 'all 0.2s ease-out',
+				  boxShadow: '0px 4px 8px rgba(58, 58, 58, 0.5)',
+				  top: '-4px',
+				  border: '1px solid #cccccc',
+				  backgroundColor: 'white',
+				},
+				':before':{
+				  content: "",
+				  zIndex: '-1',
+   			  background: '#00838d',
+   			  borderRadius: '32px',
+   			  transform: 'scale(2)',
+   			  transformOrigin: '50% 50%',
+   			  transition: 'transform 0.15s ease-out',
+				 },
+				':hover:before':{
+				  transform: 'scale(2.15)',
+				 },
 			 }}>
 				<Image src={"https://i.imgur.com/xZqTSK5.jpg"} />
-				<Heading><a href="../may-2020"><Text>May 2020</Text></a></Heading>
+				<Heading>May 2020</Heading>
 				<Text color='#111'>Issue 9</Text>
 			 </Card>
+			 </a>
+			 <a href="../april-2020">
 			 <Card width={256}
 			 sx={{
 				p: 2,
 				bg: '#dddddd',
+				zIndex: '0',
+				overflow: 'hidden',
 				borderRadius: 5,
-				boxShadow: '0 0 16px rgba(0, 0, 0, 0.4)',
+				border: '1px solid #dddddd',
+				boxShadow: '0px 0px 2px rgba(38, 38, 38, 0.2)',
+				':hover':{
+				  transition: 'all 0.2s ease-out',
+				  boxShadow: '0px 4px 8px rgba(58, 58, 58, 0.5)',
+				  top: '-4px',
+				  border: '1px solid #cccccc',
+				  backgroundColor: 'white',
+				},
+				':before':{
+				  content: "",
+				  zIndex: '-1',
+   			  background: '#00838d',
+   			  borderRadius: '32px',
+   			  transform: 'scale(2)',
+   			  transformOrigin: '50% 50%',
+   			  transition: 'transform 0.15s ease-out',
+				 },
+				':hover:before':{
+				  transform: 'scale(2.15)',
+				 },
 			 }}>
 				<Image src={"https://i.imgur.com/x0e9spD.jpg"} />
-				<Heading><a href="../april-2020">April 2020</a></Heading>
+				<Heading>April 2020</Heading>
 				<Text color='#111'>Issue 8</Text>
 			 </Card>
+			 </a>
+			 <a href="../covid-pamphlet">
 			 <Card width={256}
 			 sx={{
 				p: 2,
 				bg: '#dddddd',
+				zIndex: '0',
+				overflow: 'hidden',
 				borderRadius: 5,
-				boxShadow: '0 0 16px rgba(0, 0, 0, 0.4)',
+				border: '1px solid #dddddd',
+				boxShadow: '0px 0px 2px rgba(38, 38, 38, 0.2)',
+				':hover':{
+				  transition: 'all 0.2s ease-out',
+				  boxShadow: '0px 4px 8px rgba(58, 58, 58, 0.5)',
+				  top: '-4px',
+				  border: '1px solid #cccccc',
+				  backgroundColor: 'white',
+				},
+				':before':{
+				  content: "",
+				  zIndex: '-1',
+   			  background: '#00838d',
+   			  borderRadius: '32px',
+   			  transform: 'scale(2)',
+   			  transformOrigin: '50% 50%',
+   			  transition: 'transform 0.15s ease-out',
+				 },
+				':hover:before':{
+				  transform: 'scale(2.15)',
+				 },
 			 }}>
 				<Image src={"https://i.imgur.com/3cW94io.jpg"} />
-				<Heading as='h3'><a href="../covid-pamphlet">COVID Pamphlet</a></Heading>
+				<Heading as='h3'>COVID Pamphlet</Heading>
 				<Text color='#111'>Special Issue</Text>
 			 </Card>
+			 </a>
+			 <a href="../march-2020">
 			 <Card width={256}
 			 sx={{
 				p: 2,
 				bg: '#dddddd',
+				zIndex: '0',
+				overflow: 'hidden',
 				borderRadius: 5,
-				boxShadow: '0 0 16px rgba(0, 0, 0, 0.4)',
+				border: '1px solid #dddddd',
+				boxShadow: '0px 0px 2px rgba(38, 38, 38, 0.2)',
+				':hover':{
+				  transition: 'all 0.2s ease-out',
+				  boxShadow: '0px 4px 8px rgba(58, 58, 58, 0.5)',
+				  top: '-4px',
+				  border: '1px solid #cccccc',
+				  backgroundColor: 'white',
+				},
+				':before':{
+				  content: "",
+				  zIndex: '-1',
+   			  background: '#00838d',
+   			  borderRadius: '32px',
+   			  transform: 'scale(2)',
+   			  transformOrigin: '50% 50%',
+   			  transition: 'transform 0.15s ease-out',
+				 },
+				':hover:before':{
+				  transform: 'scale(2.15)',
+				 },
 			 }}>
 				<Image src={"https://i.imgur.com/5ApJh0X.jpg"} />
-				<Heading><a href="../march-2020">March 2020</a></Heading>
+				<Heading>March 2020</Heading>
 				<Text color='#111'>Issue 7</Text>
 			 </Card>
+			 </a>
+			 <a href="../febraury-2020">
 			 <Card width={256}
 			 sx={{
 				p: 2,
 				bg: '#dddddd',
+				zIndex: '0',
+				overflow: 'hidden',
 				borderRadius: 5,
-				boxShadow: '0 0 16px rgba(0, 0, 0, 0.4)',
+				border: '1px solid #dddddd',
+				boxShadow: '0px 0px 2px rgba(38, 38, 38, 0.2)',
+				':hover':{
+				  transition: 'all 0.2s ease-out',
+				  boxShadow: '0px 4px 8px rgba(58, 58, 58, 0.5)',
+				  top: '-4px',
+				  border: '1px solid #cccccc',
+				  backgroundColor: 'white',
+				},
+				':before':{
+				  content: "",
+				  zIndex: '-1',
+   			  background: '#00838d',
+   			  borderRadius: '32px',
+   			  transform: 'scale(2)',
+   			  transformOrigin: '50% 50%',
+   			  transition: 'transform 0.15s ease-out',
+				 },
+				':hover:before':{
+				  transform: 'scale(2.15)',
+				 },
 			 }}>
 				<Image src={"https://i.imgur.com/SedbMNh.png"} />
-				<Heading><a href="../febraury-2020">Febraury 2020</a></Heading>
+				<Heading>Febraury 2020</Heading>
 				<Text color='#111'>Issue 6</Text>
 			 </Card>
-			 <Card width={256}
+			 </a>
+			 <a href="../january-2020">
+			 <Card width={256} height={351.4}
 			 sx={{
 				p: 2,
 				bg: '#dddddd',
+				zIndex: '0',
+				overflow: 'hidden',
 				borderRadius: 5,
-				boxShadow: '0 0 16px rgba(0, 0, 0, 0.4)',
+				border: '1px solid #dddddd',
+				boxShadow: '0px 0px 2px rgba(38, 38, 38, 0.2)',
+				':hover':{
+				  transition: 'all 0.2s ease-out',
+				  boxShadow: '0px 4px 8px rgba(58, 58, 58, 0.5)',
+				  top: '-4px',
+				  border: '1px solid #cccccc',
+				  backgroundColor: 'white',
+				},
+				':before':{
+				  content: "",
+				  zIndex: '-1',
+   			  background: '#00838d',
+   			  borderRadius: '32px',
+   			  transform: 'scale(2)',
+   			  transformOrigin: '50% 50%',
+   			  transition: 'transform 0.15s ease-out',
+				 },
+				':hover:before':{
+				  transform: 'scale(2.15)',
+				 },
 			 }}>
 				<Image src={"https://i.imgur.com/7SVXQgM.jpg"} />
-				<Heading><a href="../january-2020">January 2020</a></Heading>
+				<Heading>January 2020</Heading>
 				<Text color='#111'>Issue 5</Text>
 			 </Card>
+			 </a>
+			 <a href="../december-2020">
 			 <Card width={256}
 			 sx={{
 				p: 2,
 				bg: '#dddddd',
+				zIndex: '0',
+				overflow: 'hidden',
 				borderRadius: 5,
-				boxShadow: '0 0 16px rgba(0, 0, 0, 0.4)',
+				border: '1px solid #dddddd',
+				boxShadow: '0px 0px 2px rgba(38, 38, 38, 0.2)',
+				':hover':{
+				  transition: 'all 0.2s ease-out',
+				  boxShadow: '0px 4px 8px rgba(58, 58, 58, 0.5)',
+				  top: '-4px',
+				  border: '1px solid #cccccc',
+				  backgroundColor: 'white',
+				},
+				':before':{
+				  content: "",
+				  zIndex: '-1',
+   			  background: '#00838d',
+   			  borderRadius: '32px',
+   			  transform: 'scale(2)',
+   			  transformOrigin: '50% 50%',
+   			  transition: 'transform 0.15s ease-out',
+				 },
+				':hover:before':{
+				  transform: 'scale(2.15)',
+				 },
 			 }}>
 				<Image src={"https://i.imgur.com/a2xgTKF.jpg"} />
-				<Heading><a href="../december-2019">December 2019</a></Heading>
+				<Heading>December 2019</Heading>
 				<Text color='#111'>Issue 4</Text>
 			 </Card>
+			 </a>
+			 <a href="../november-2019">
 			 <Card width={256}
 			 sx={{
 				p: 2,
 				bg: '#dddddd',
+				zIndex: '0',
+				overflow: 'hidden',
 				borderRadius: 5,
-				boxShadow: '0 0 16px rgba(0, 0, 0, 0.4)',
+				border: '1px solid #dddddd',
+				boxShadow: '0px 0px 2px rgba(38, 38, 38, 0.2)',
+				':hover':{
+				  transition: 'all 0.2s ease-out',
+				  boxShadow: '0px 4px 8px rgba(58, 58, 58, 0.5)',
+				  top: '-4px',
+				  border: '1px solid #cccccc',
+				  backgroundColor: 'white',
+				},
+				':before':{
+				  content: "",
+				  zIndex: '-1',
+   			  background: '#00838d',
+   			  borderRadius: '32px',
+   			  transform: 'scale(2)',
+   			  transformOrigin: '50% 50%',
+   			  transition: 'transform 0.15s ease-out',
+				 },
+				':hover:before':{
+				  transform: 'scale(2.15)',
+				 },
 			 }}>
 				<Image src={"https://i.imgur.com/rRel9wF.jpg"} />
-				<Heading><a href="../november-2019">November 2019</a></Heading>
+				<Heading>November 2019</Heading>
 				<Text color='#111'>Issue 3</Text>
 			 </Card>
+			 </a>
+			 <a href="../october-2020">
 			 <Card width={256}
 			 sx={{
 				p: 2,
 				bg: '#dddddd',
+				zIndex: '0',
+				overflow: 'hidden',
 				borderRadius: 5,
-				boxShadow: '0 0 16px rgba(0, 0, 0, 0.4)',
+				border: '1px solid #dddddd',
+				boxShadow: '0px 0px 2px rgba(38, 38, 38, 0.2)',
+				':hover':{
+				  transition: 'all 0.2s ease-out',
+				  boxShadow: '0px 4px 8px rgba(58, 58, 58, 0.5)',
+				  top: '-4px',
+				  border: '1px solid #cccccc',
+				  backgroundColor: 'white',
+				},
+				':before':{
+				  content: "",
+				  zIndex: '-1',
+   			  background: '#00838d',
+   			  borderRadius: '32px',
+   			  transform: 'scale(2)',
+   			  transformOrigin: '50% 50%',
+   			  transition: 'transform 0.15s ease-out',
+				 },
+				':hover:before':{
+				  transform: 'scale(2.15)',
+				 },
 			 }}>
 				<Image src={"https://i.imgur.com/zSbNHc0.jpg"} />
-				<Heading><a href="../october-2019">October 2019</a></Heading>
+				<Heading>October 2019</Heading>
 				<Text color='#111'>Issue 2</Text>
 			 </Card>
+			 </a>
+			 <a href="../september-2019">
 			 <Card width={256}
 			 sx={{
 				p: 2,
 				bg: '#dddddd',
+				zIndex: '0',
+				overflow: 'hidden',
 				borderRadius: 5,
-				boxShadow: '0 0 16px rgba(0, 0, 0, 0.4)',
+				border: '1px solid #dddddd',
+				boxShadow: '0px 0px 2px rgba(38, 38, 38, 0.2)',
+				':hover':{
+				  transition: 'all 0.2s ease-out',
+				  boxShadow: '0px 4px 8px rgba(58, 58, 58, 0.5)',
+				  top: '-4px',
+				  border: '1px solid #cccccc',
+				  backgroundColor: 'white',
+				},
+				':before':{
+				  content: "",
+				  zIndex: '-1',
+   			  background: '#00838d',
+   			  borderRadius: '32px',
+   			  transform: 'scale(2)',
+   			  transformOrigin: '50% 50%',
+   			  transition: 'transform 0.15s ease-out',
+				 },
+				':hover:before':{
+				  transform: 'scale(2.15)',
+				 },
 			 }}>
 				<Image src={"https://i.imgur.com/ywhAmBr.jpg"} />
-				<Heading><a href="../september-2019">September 2019</a></Heading>
+				<Heading>September 2019</Heading>
 				<Text color='#111'>Issue 1</Text>
 			 </Card>
+			 </a>
 		  </Box>  
         </LocalContainer>
         </Section>

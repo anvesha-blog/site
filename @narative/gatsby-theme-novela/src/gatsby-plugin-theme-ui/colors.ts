@@ -38,8 +38,6 @@ export default {
       tagBackground: '#404040',
       tagText: '#bfc9ca',
       hover: 'rgba(255, 255, 255, 0.07)',
-      gradient:
-        'linear-gradient(180deg, rgba(217, 219, 224, 0) 0%, rgba(66, 81, 98, 0.36) 100%)',
       articleText: '#fff',
       track: 'rgba(255, 255, 255, 0.3)',
       progress: '#fff',

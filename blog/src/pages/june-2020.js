@@ -57,6 +57,14 @@ const LocalContainer = styled.div`
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+  buttons: {
+	 primary: {
+		backgroundColor: '#07c',
+		'&:hover': {
+		  backgroundColor: 'tomato'
+		}
+	 }
+  }
 `;
 
 export default class ClientFetchingExample extends Component {
