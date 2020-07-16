@@ -6,7 +6,7 @@ const siteMetadata = {
   siteUrl: `https://anveshablog.netlify.app/`,
   description: `Official blog of Anvesha, the science club of IISER Thiruvananthapuram.`,
   hero: {
-    heading: `Welcome to Anvesha blog! Check out our <a href="/newsletters/">Newsletters</a> here.`,
+    heading: `Welcome to Anvesha blog! Check out our <a href="/newsletters/">newsletters</a> here.`,
     maxWidth: 1052,
   },
   social: [

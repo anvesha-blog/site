@@ -172,7 +172,7 @@ export default class ClientFetchingExample extends Component {
 				borderRadius: 5,
 				boxShadow: '0 0 16px rgba(0, 0, 0, 0.4)',
 			 }}>
-				<Image src={"https://i.imgur.com/7SVXQgMm.jpg"} />
+				<Image src={"https://i.imgur.com/7SVXQgM.jpg"} />
 				<Heading><a href="../january-2020">January 2020</a></Heading>
 				<Text color='#111'>Issue 5</Text>
 			 </Card>
