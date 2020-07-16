@@ -1,4 +1,4 @@
-# Anvesha blog [![Netlify Status](https://api.netlify.com/api/v1/badges/0c2f8f1e-6021-49aa-bf6a-79974a89339c/deploy-status)](https://app.netlify.com/sites/serene-haibt-80ebc8/deploys) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+# Anvesha blog [![Netlify Status](https://api.netlify.com/api/v1/badges/0c2f8f1e-6021-49aa-bf6a-79974a89339c/deploy-status)](https://app.netlify.com/teams/anvesha-blog/sites) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 Personal website running on Gatsby, React, and Node.js! The theme here is based on the
 [Novela Theme](https://github.com/narative/gatsby-theme-novela).
