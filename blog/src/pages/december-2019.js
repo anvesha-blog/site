@@ -66,17 +66,17 @@ export default class ClientFetchingExample extends Component {
         <SEO />
         <Hero>
           <div className='author'>
-            <h1 className='author__site-title'>Newsletter Issue - May 2020</h1>
+            <h1 className='author__site-title'>Newsletter Issue - December 2019</h1>
           </div>
         </Hero>
         <br />
         <br />
         <Section narrow>
         <LocalContainer>
-		  <a href="https://drive.google.com/uc?id=1CNBAKf-r_-qW9v3oT_-_BcmyOolsj95E&export=download">Download this issue</a>
+		  <a href="https://drive.google.com/uc?id=1axDOiWF7XXhGEvW9VDIUJdSy6Kje-dUB&export=download">Download this issue</a>
 		  &nbsp;
 		  &nbsp;
-		  <iframe title="May-2020" src="https://drive.google.com/file/d/1CNBAKf-r_-qW9v3oT_-_BcmyOolsj95E/preview" width="100%" height="800" frameborder="0" allowfullscreen="true"></iframe>
+		  <iframe title="December-2019" src="https://drive.google.com/file/d/1axDOiWF7XXhGEvW9VDIUJdSy6Kje-dUB/preview" width="100%" height="800" frameborder="0" allowfullscreen="true"></iframe>
 		  &nbsp;
 		  &nbsp;
 		  &nbsp;
