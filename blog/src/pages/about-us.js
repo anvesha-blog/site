@@ -89,6 +89,76 @@ const LocalContainer = styled.div`
       color: crimson;
     }
   }
+
+  ${mediaqueries.desktop`
+	 padding: 0 6rem;
+  `}
+
+  ${mediaqueries.tablet`
+	 padding: 0 1rem;
+  h2,
+  h3 {
+    font-size: 2.2rem;
+    font-family: Helvetica;
+    line-height: 1.3;
+    font-weight: 600;
+  }
+  h3 {
+    font-size: 2.0rem;
+    font-weight: 500;
+  }
+  p {
+    font-size: 1.8rem;
+    font-family: Arial;
+	 text-align: justify;
+    color: ${(p) => p.theme.colors.primary};
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  details,
+  summary {
+    font-size: 1.8rem;
+    font-family: Arial;
+    color: ${(p) => p.theme.colors.primary};
+    display: block;
+  }
+  `};
+
+  ${mediaqueries.phablet`
+	 padding: 0 0.1rem;
+  h2,
+  h3 {
+    font-size: 2.0rem;
+    font-family: Helvetica;
+    line-height: 1.3;
+    font-weight: 600;
+  }
+  h3 {
+    font-size: 1.7rem;
+    font-weight: 500;
+  }
+  p {
+    font-size: 1.6rem;
+    font-family: Arial;
+	 text-align: justify;
+    color: ${(p) => p.theme.colors.primary};
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  details,
+  summary {
+    font-size: 1.6rem;
+    font-family: Arial;
+    color: ${(p) => p.theme.colors.primary};
+    display: block;
+  }
+  `};
 `;
 
 const Paragraph = styled.p`
@@ -134,19 +204,17 @@ export default class ClientFetchingExample extends Component {
         <Section narrow>
           <LocalContainer>
             <p>
-              Greetings! Welcome to Anvesha, the official science club of IISER
-              Thiruvananthapuram. In research institutes such as IISER, it is
+              Greetings! Welcome to Anvesha, the official science club of <a href="http://www.iisertvm.ac.in">IISER
+              Thiruvananthapuram</a>. In research institutes such as IISER, it is
               paramount to have a platform where a free exchange of ideas is
               possible; a platform that delves into the depths of the scientific
               method. Thus, the Anvesha blog was created!
             </p>
 
             <p>
-              We also have a monthly science newsletter called ‘Exhibit: A’
-              where we bring to you the latest in science! Our goal has always
+              We also have a monthly science newsletter called <a href="/newsletters/">‘Exhibit: A’</a>               where we bring to you the latest in science! Our goal has always
               been to make these platforms as collaborative as possible; we
-              would love to share your content! Send your submissions to
-              anveshacontent@gmail.com (external submissions are more than
+              would love to share your content! Send your submissions to <a href="mailto:anveshacontent@gmail.com">anveshacontent@gmail.com</a> (external submissions are more than
               welcome.)
             </p>
 
@@ -888,7 +956,7 @@ export default class ClientFetchingExample extends Component {
               <Box flex="1 1 auto">
                 <h2>Nikhil Alex Verghese</h2>
                 <h3>Newsletter and Social Media Designer, Batch '17</h3>
-                <p>Existential crisis-ist&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;</p>
+                <p>Existential crisis-ist&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;</p> 
               </Box>
               <Box
                 p={3}

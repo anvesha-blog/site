@@ -80,9 +80,8 @@ const plugins = [
         "https://app.us10.list-manage.com/subscribe/post?u=b76305f5f4e7ae24267918d4f&amp;id=f842a1f8c8",
     },
   },
-  `gatsby-plugin-react-helmet`,
   {
-	 resolve: `gatsby-plugin-react-helmet-canonical-urls`,
+	 resolve: `gatsby-plugin-canonical-urls`,
 	 options: {
 		siteUrl: `https://anveshablog.netlify.app/`
 	 }
