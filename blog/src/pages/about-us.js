@@ -57,13 +57,14 @@ const LocalContainer = styled.div`
   h2,
   h3 {
     font-size: 2.8rem;
-    font-family: Helvetica;
+    font-family: 'Merriweather';
+	 padding-bottom: 10px;
     line-height: 1.3;
     font-weight: 600;
   }
   h3 {
     font-size: 2rem;
-    font-weight: 500;
+    font-weight: 600;
   }
   p {
     font-size: 1.8rem;
@@ -99,7 +100,8 @@ const LocalContainer = styled.div`
   h2,
   h3 {
     font-size: 2.2rem;
-    font-family: Helvetica;
+    font-family: 'Merriweather';
+	 padding-bottom: 10px;
     line-height: 1.3;
     font-weight: 600;
   }
@@ -131,7 +133,8 @@ const LocalContainer = styled.div`
   h2,
   h3 {
     font-size: 2.0rem;
-    font-family: Helvetica;
+    font-family: 'Merriweather';
+	 padding-bottom: 10px;
     line-height: 1.3;
     font-weight: 600;
   }
