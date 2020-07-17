@@ -309,7 +309,7 @@ export default class ClientFetchingExample extends Component {
 				 },
 			 }}>
 				<Image src={"https://i.imgur.com/SedbMNh.png"} />
-				<Heading>Febraury 2020</Heading>
+				<Heading>February 2020</Heading>
 				<Text color='#111'>Issue 6</Text>
 			 </Card>
 			 </a>
