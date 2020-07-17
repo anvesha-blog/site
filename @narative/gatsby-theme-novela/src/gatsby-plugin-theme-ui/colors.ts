@@ -14,7 +14,7 @@ export default {
   hover: 'rgba(0, 0, 0, 0.07)',
   gradient: 'none',
   articleText: '#08080B',
-  track: 'rgba(8, 8, 11, 0.3)',
+  track: 'rgba(8, 8, 11, 0.1)',
   progress: '#000',
   card: '#fff',
   error: '#EE565B',

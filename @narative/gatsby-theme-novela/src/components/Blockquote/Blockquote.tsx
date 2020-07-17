@@ -3,7 +3,7 @@ import mediaqueries from '@styles/media';
 
 const Blockquote = styled.blockquote`
   transition: ${(p) => p.theme.colorModeTransition};
-  margin: 15px auto 50px;
+  margin: 10px auto 35px;
   background: ${(p) => p.theme.colors.track};
   color: ${(p) => p.theme.colors.articleText};
   border-left: 8px solid #78c0a8;
@@ -13,11 +13,14 @@ const Blockquote = styled.blockquote`
   line-height: 1.6;
   max-width: 980px;
   width: 100%;
+  p {
+	 margin: auto;
+  }
 
   cite {
     display: block;
     margin-top: 1rem;
-    font-size: 1.1rem;
+    font-size: 1.1em;
     text-align: right;
     font-family: -apple-system, BlinkMacSystemFont, 'Roboto', Helvetica Neue, Helvetica, Arial,
       sans-serif;
