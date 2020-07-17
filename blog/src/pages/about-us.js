@@ -11,6 +11,7 @@ import { FaFacebook } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { FaWordpress } from 'react-icons/fa';
+import mediaqueries from '@styles/media';
 
 const Hero = styled.div`
   background-color: ${(p) => p.theme.colors.hero};
@@ -90,6 +91,34 @@ const LocalContainer = styled.div`
   }
 `;
 
+const Paragraph = styled.p`
+  line-height: 1.756;
+  font-size: 18px;
+  color: ${(p) => p.theme.colors.articleText};
+  font-family: ${(p) => p.theme.fonts.sansSerif};
+  transition: ${(p) => p.theme.colorModeTransition};
+  margin: 0 auto 25px;
+  width: 100%;
+  max-width: 980px;
+
+  b {
+    font-weight: 800;
+  }
+
+  ${mediaqueries.desktop`
+    max-width: 807px;
+  `}
+
+  ${mediaqueries.tablet`
+    max-width: 526px;
+    margin: 0 auto 5px;
+  `};
+
+  ${mediaqueries.phablet`
+    padding: 20px;
+  `};
+`;
+
 export default class ClientFetchingExample extends Component {
   render() {
     return (
@@ -164,7 +193,7 @@ export default class ClientFetchingExample extends Component {
                 />
               </Box>
             </Flex>
-            <p style={{ 'text-align': 'justify', 'margin-top': '0' }}>
+            <p style={{ 'margin-top': '0' }}>
               <details>
                 <summary
                   style={{ color: '#555', 'text-decoration': 'underline' }}
@@ -358,7 +387,7 @@ export default class ClientFetchingExample extends Component {
                 />
               </Box>
             </Flex>
-            <p style={{ 'text-align': 'justify', 'margin-top': '0' }}>
+            <p style={{ 'margin-top': '0' }}>
               <details>
                 <summary
                   style={{ color: '#555', 'text-decoration': 'underline' }}
@@ -419,7 +448,7 @@ export default class ClientFetchingExample extends Component {
                 />
               </Box>
             </Flex>
-            <p style={{ 'text-align': 'justify', 'margin-top': '0' }}>
+            <p style={{ 'margin-top': '0' }}>
               <details>
                 <summary
                   style={{ color: '#555', 'text-decoration': 'underline' }}
@@ -481,7 +510,7 @@ export default class ClientFetchingExample extends Component {
                 />
               </Box>
             </Flex>
-            <p style={{ 'text-align': 'justify', 'margin-top': '0' }}>
+            <p style={{ 'margin-top': '0' }}>
               <details>
                 <summary
                   style={{ color: '#555', 'text-decoration': 'underline' }}
@@ -1011,7 +1040,7 @@ export default class ClientFetchingExample extends Component {
                 />
               </Box>
             </Flex>
-            <p style={{ 'text-align': 'justify', 'margin-top': '0' }}>
+            <p style={{ 'margin-top': '0' }}>
               <details>
                 <summary
                   style={{ color: '#555', 'text-decoration': 'underline' }}
@@ -1069,7 +1098,7 @@ export default class ClientFetchingExample extends Component {
                 />
               </Box>
             </Flex>
-            <p style={{ 'text-align': 'justify', 'margin-top': '0' }}>
+            <p style={{ 'margin-top': '0' }}>
               <details>
                 <summary
                   style={{ color: '#555', 'text-decoration': 'underline' }}
