@@ -110,7 +110,6 @@ const LocalContainer = styled.div`
   p {
     font-size: 1.8rem;
     font-family: Arial;
-	 text-align: justify;
     color: ${(p) => p.theme.colors.primary};
     display: block;
     margin-block-start: 1em;
@@ -143,7 +142,6 @@ const LocalContainer = styled.div`
   p {
     font-size: 1.6rem;
     font-family: Arial;
-	 text-align: justify;
     color: ${(p) => p.theme.colors.primary};
     display: block;
     margin-block-start: 1em;
