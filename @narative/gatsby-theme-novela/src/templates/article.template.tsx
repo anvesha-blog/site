@@ -18,6 +18,7 @@ import ArticleControls from '../sections/article/Article.Controls';
 import ArticlesNext from '../sections/article/Article.Next';
 import ArticleSEO from '../sections/article/Article.SEO';
 import ArticleShare from '../sections/article/Article.Share';
+import HyvorTalk from 'hyvor-talk-react';
 
 import { Template } from '@types';
 
@@ -90,6 +91,7 @@ const Article: Template = ({ data, pageContext, location }) => {
         <MDXRenderer content={article.body} headings={headings}>
           <ArticleShare />
         </MDXRenderer>
+		<HyvorTalk.Embed websiteId={1228} />
       </ArticleBody>
       {!article.secret && (
         <PaginationWrapper>
