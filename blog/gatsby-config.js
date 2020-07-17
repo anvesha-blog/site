@@ -14,7 +14,7 @@ const siteMetadata = {
       url: `https://twitter.com/Anvesha_IISER`,
     },
     {
-		url: `https://www.instagram.com/anvesha.iisertvm`,
+		url: `https://www.instagram.com/anveshaiiser/`,
     },
     {
       url: `https://www.facebook.com/anvesha.iisertvm`,

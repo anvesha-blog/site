@@ -309,6 +309,6 @@ const CoAuthorsContainer = styled.div<{ isOpen: boolean }>`
 
 const HideOnMobile = styled.span`
   ${mediaqueries.phablet`
-    display: none;
+    display: block;
   `}
 `;

@@ -69,7 +69,7 @@ const LocalContainer = styled.div`
   p {
     font-size: 1.8rem;
     font-family: Arial;
-    color: ${(p) => p.theme.colors.primary};
+    color: ${(p) => p.theme.colors.paracolor};
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -80,7 +80,7 @@ const LocalContainer = styled.div`
   summary {
     font-size: 1.8rem;
     font-family: Arial;
-    color: ${(p) => p.theme.colors.primary};
+    color: ${(p) => p.theme.colors.paracolor};
     display: block;
   }
   a {
@@ -112,7 +112,7 @@ const LocalContainer = styled.div`
   p {
     font-size: 1.8rem;
     font-family: Arial;
-    color: ${(p) => p.theme.colors.primary};
+    color: ${(p) => p.theme.colors.paracolor};
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -123,7 +123,7 @@ const LocalContainer = styled.div`
   summary {
     font-size: 1.8rem;
     font-family: Arial;
-    color: ${(p) => p.theme.colors.primary};
+    color: ${(p) => p.theme.colors.paracolor};
     display: block;
   }
   `};
@@ -145,7 +145,7 @@ const LocalContainer = styled.div`
   p {
     font-size: 1.6rem;
     font-family: Arial;
-    color: ${(p) => p.theme.colors.primary};
+    color: ${(p) => p.theme.colors.paracolor};
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -156,7 +156,7 @@ const LocalContainer = styled.div`
   summary {
     font-size: 1.6rem;
     font-family: Arial;
-    color: ${(p) => p.theme.colors.primary};
+    color: ${(p) => p.theme.colors.paracolor};
     display: block;
   }
   `};
@@ -288,6 +288,10 @@ export default class ClientFetchingExample extends Component {
               Contact: &nbsp;
               <a href="https://www.facebook.com/balaram.vishnu">
                 <FaFacebook />
+              </a>
+              &nbsp; &nbsp;
+              <a href="https://www.linkedin.com/in/balaram-vishnu-subramani-444842163">
+                <FaLinkedin />
               </a>
               &nbsp; &nbsp;
               <a href="mailto:balaram.vishnu17@iisertvm.ac.in">
@@ -789,7 +793,7 @@ export default class ClientFetchingExample extends Component {
                 <h2>Aiswarya PS</h2>
                 <h3>Content Creator, Batch '18</h3>
                 <p>
-                  An aspiring creative scientist, Aiswaraya is interested in
+                  An aspiring creative scientist, Aiswarya is interested in
                   physics, neuroscience, and everything in between! Truly a
                   nomad flitting between Mumbai and Kerala, she exhibits her
                   flair for the arts through her favourite modes of
