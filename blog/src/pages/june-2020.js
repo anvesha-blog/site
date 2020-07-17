@@ -84,7 +84,7 @@ export default class ClientFetchingExample extends Component {
 		  <a href="https://drive.google.com/uc?id=1CNBAKf-r_-qW9v3oT_-_BcmyOolsj95E&export=download">Download this issue</a>
 		  &nbsp;
 		  &nbsp;
-		  <iframe title="June-2020" src="https://drive.google.com/file/d/1CNBAKf-r_-qW9v3oT_-_BcmyOolsj95E/preview" width="100%" height="800" frameborder="0" allowfullscreen="true"></iframe>
+		  <iframe title="June-2020" src="https://drive.google.com/file/d/1lmHRJFUqik9m4A_f3Ez8NvJE4AhboYre/preview" width="100%" height="800" frameborder="0" allowfullscreen="true"></iframe>
 		  &nbsp;
 		  &nbsp;
 		  &nbsp;

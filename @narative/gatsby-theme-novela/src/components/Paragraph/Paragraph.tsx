@@ -25,7 +25,7 @@ const Paragraph = styled.p`
   `};
 
   ${mediaqueries.phablet`
-    padding: 0 20px;
+    padding: 20px;
   `};
 `;
 

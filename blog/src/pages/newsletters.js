@@ -97,6 +97,7 @@ export default class ClientFetchingExample extends Component {
 		  <Box
 			 sx={{
 				display: 'grid',
+				justifyContent: 'center',
 				gridGap: 3,
 				gridRowGap: 5,
 				gridTemplateColumns: 'repeat(auto-fit, minmax(256px, 1fr))',
@@ -132,7 +133,7 @@ export default class ClientFetchingExample extends Component {
 				  transform: 'scale(2.15)',
 				 },
 			 }}>
-				<Image src={"https://i.imgur.com/xZqTSK5m.jpg"} />
+				<Image src={"https://i.imgur.com/1Uqwy5y.jpg"} />
 				<Heading>June 2020</Heading>
 				<Text color='#111'>Issue 10</Text>
 			 </Card>
@@ -342,7 +343,7 @@ export default class ClientFetchingExample extends Component {
 				  transform: 'scale(2.15)',
 				 },
 			 }}>
-				<Image src={"https://i.imgur.com/7SVXQgM.jpg"} />
+				<Image src={"https://i.imgur.com/7SVXQgM.jpg?1"} />
 				<Heading>January 2020</Heading>
 				<Text color='#111'>Issue 5</Text>
 			 </Card>
