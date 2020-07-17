@@ -16,6 +16,8 @@
     "gatsby-plugin-google-tagmanager": "^2.2.3",
     "gatsby-plugin-mailchimp": "^5.1.2",
     "gatsby-plugin-manifest": "^2.2.4",
+    "gatsby-plugin-react-helmet": "^3.3.10",
+    "gatsby-plugin-react-helmet-canonical-urls": "^1.4.0",
     "gatsby-source-filesystem": "^2.1.9",
     "highcharts": "^8.0.4",
     "highcharts-react-official": "^3.0.0",
