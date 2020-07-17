@@ -149,7 +149,7 @@ const NavigationHeader: React.FC<{}> = () => {
           ) : (
             <>
               <LogoLink
-                to="/about/"
+                to="/about-us/"
                 data-a11y="false"
                 title="About us"
                 aria-label="About us"
