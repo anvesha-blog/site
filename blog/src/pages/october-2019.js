@@ -5,6 +5,7 @@ import Layout from  "@components/Layout"
 import styled from '@emotion/styled';
 import Subscription from '@components/Subscription';
 import HyvorTalk from 'hyvor-talk-react';
+import { Button } from 'rebass';
 
 const Hero = styled.div`
   background-color: ${p => p.theme.colors.hero};
@@ -51,6 +52,11 @@ const LocalContainer = styled.div`
     padding-bottom: .5rem;
     font-weight: 500;
   }
+  h3 {
+    font-size: 2rem;
+    line-height: 1.3;
+    font-weight: 500;
+  }
   p {
     font-size: 1.8rem;
     display: block;
@@ -59,6 +65,9 @@ const LocalContainer = styled.div`
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+a {
+  color: ${p => p.theme.colors.accent};
+ }
 `;
 
 export default class ClientFetchingExample extends Component {
@@ -75,9 +84,18 @@ export default class ClientFetchingExample extends Component {
         <br />
         <Section narrow>
         <LocalContainer>
-		  <a href="https://drive.google.com/uc?id=1hb5gLb0EigfQunR10PZqsgNawMIAX4Nr&export=download">Download this issue</a>
-		  &nbsp;
-		  &nbsp;
+        <Button mr={2} bg='track'
+			 sx={{
+			 ':hover': {
+			 backgroundColor: 'buttonColored',
+			 }
+			 }}>
+		  <a href="https://drive.google.com/uc?id=1hb5gLb0EigfQunR10PZqsgNawMIAX4Nr&export=download">
+		  <h3>Download</h3>
+		  </a>
+		  </Button>
+        <br />
+        <br />
 		  <iframe title="October-2019" src="https://drive.google.com/file/d/1hb5gLb0EigfQunR10PZqsgNawMIAX4Nr/preview" width="100%" height="800" frameborder="0" allowfullscreen="true"></iframe>
 		  &nbsp;
 		  &nbsp;
