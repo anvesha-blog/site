@@ -68,7 +68,7 @@ const LocalContainer = styled.div`
   }
   p {
     font-size: 1.8rem;
-    font-family: Arial;
+    font-family: Helvetica;
     color: ${(p) => p.theme.colors.paracolor};
     display: block;
     margin-block-start: 1em;
@@ -79,7 +79,7 @@ const LocalContainer = styled.div`
   details,
   summary {
     font-size: 1.8rem;
-    font-family: Arial;
+    font-family: Helvetica;
     color: ${(p) => p.theme.colors.paracolor};
     display: block;
   }
@@ -111,7 +111,7 @@ const LocalContainer = styled.div`
   }
   p {
     font-size: 1.8rem;
-    font-family: Arial;
+    font-family: Helvetica;
     color: ${(p) => p.theme.colors.paracolor};
     display: block;
     margin-block-start: 1em;
@@ -122,7 +122,7 @@ const LocalContainer = styled.div`
   details,
   summary {
     font-size: 1.8rem;
-    font-family: Arial;
+    font-family: Helvetica;
     color: ${(p) => p.theme.colors.paracolor};
     display: block;
   }
@@ -144,7 +144,7 @@ const LocalContainer = styled.div`
   }
   p {
     font-size: 1.6rem;
-    font-family: Arial;
+    font-family: Helvetica;
     color: ${(p) => p.theme.colors.paracolor};
     display: block;
     margin-block-start: 1em;
@@ -155,7 +155,7 @@ const LocalContainer = styled.div`
   details,
   summary {
     font-size: 1.6rem;
-    font-family: Arial;
+    font-family: Helvetica;
     color: ${(p) => p.theme.colors.paracolor};
     display: block;
   }
@@ -1016,7 +1016,7 @@ export default class ClientFetchingExample extends Component {
                 }}
               >
                 <Image
-                  src={'https://i.imgur.com/QKGHnBjb.jpg'}
+                  src={'https://i.imgur.com/QKGHnBj.jpg'}
                   width={128}
                   height={128}
                   variant="avatar"
