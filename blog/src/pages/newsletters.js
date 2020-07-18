@@ -3,6 +3,7 @@ import Section from "@components/Section";
 import SEO from "@components/SEO";
 import Layout from  "@components/Layout"
 import styled from '@emotion/styled';
+import Subscription from '@components/Subscription';
 import {
   Box,
   Card,
@@ -489,6 +490,9 @@ export default class ClientFetchingExample extends Component {
 			 </Card>
 			 </a>
 		  </Box>  
+		  <br />
+		  <br />
+				{<Subscription />}
         </LocalContainer>
         </Section>
       </Layout>

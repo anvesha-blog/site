@@ -41,7 +41,7 @@ export default {
       tagBackground: '#404040',
       tagText: '#bfc9ca',
       hover: 'rgba(255, 255, 255, 0.07)',
-      articleText: '#fff',
+      articleText: '#d8d8d6',
       track: 'rgba(255, 255, 255, 0.3)',
       progress: '#fff',
       card: '#1D2128',

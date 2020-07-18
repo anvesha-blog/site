@@ -12,6 +12,7 @@ import { FaInstagram } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { FaWordpress } from 'react-icons/fa';
 import mediaqueries from '@styles/media';
+import Subscription from '@components/Subscription';
 
 const Hero = styled.div`
   background-color: ${(p) => p.theme.colors.hero};
@@ -1203,6 +1204,9 @@ export default class ClientFetchingExample extends Component {
                 <FaEnvelope />
               </a>
             </p>
+				<br />
+				<br />
+				{<Subscription />}
           </LocalContainer>
         </Section>
       </Layout>
