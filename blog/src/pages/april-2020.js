@@ -3,6 +3,8 @@ import Section from "@components/Section";
 import SEO from "@components/SEO";
 import Layout from  "@components/Layout"
 import styled from '@emotion/styled';
+import Subscription from '@components/Subscription';
+import HyvorTalk from 'hyvor-talk-react';
 
 const Hero = styled.div`
   background-color: ${p => p.theme.colors.hero};
@@ -83,6 +85,14 @@ export default class ClientFetchingExample extends Component {
 		  &nbsp;
 		  &nbsp;
 		  &nbsp;
+		  <br />
+		  <br />
+		  <br />
+		  <br />	
+		<HyvorTalk.Embed websiteId={1228} />
+		  <br />
+		  <br />
+	       {<Subscription />}
         </LocalContainer>
         </Section>
       </Layout>

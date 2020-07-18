@@ -21,6 +21,7 @@ export default {
   error: '#EE565B',
   success: '#46B17B',
   buttonColor: '#1E88E5',
+  buttonColored: '#E9DAAC',
   buttonHover: '#08589F',
   errorBackground: 'rgba(238, 86, 91, 0.1)',
   horizontalRule: 'rgba(8, 8, 11, 0.15)',
@@ -50,6 +51,7 @@ export default {
       horizontalRule: 'rgba(255, 255, 255, 0.15)',
       inputBackground: 'rgba(255, 255, 255, 0.07)',
       tocBackground: '#191919',
+		buttonColored: '#1E88E5',
     },
   },
 };

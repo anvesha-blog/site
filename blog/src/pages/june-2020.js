@@ -5,6 +5,7 @@ import Layout from  "@components/Layout"
 import styled from '@emotion/styled';
 import Subscription from '@components/Subscription';
 import HyvorTalk from 'hyvor-talk-react';
+import { Button } from 'rebass';
 
 const Hero = styled.div`
   background-color: ${p => p.theme.colors.hero};
@@ -51,6 +52,11 @@ const LocalContainer = styled.div`
     padding-bottom: .5rem;
     font-weight: 500;
   }
+  h3 {
+    font-size: 2rem;
+    line-height: 1.3;
+    font-weight: 500;
+  }
   p {
     font-size: 1.8rem;
     display: block;
@@ -59,13 +65,8 @@ const LocalContainer = styled.div`
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-  buttons: {
-	 primary: {
-		backgroundColor: '#07c',
-		'&:hover': {
-		  backgroundColor: 'tomato'
-		}
-	 }
+  a {
+	 color: ${p => p.theme.colors.accent};
   }
 `;
 
@@ -83,9 +84,18 @@ export default class ClientFetchingExample extends Component {
         <br />
         <Section narrow>
         <LocalContainer>
-		  <a href="https://drive.google.com/file/d/1eui5T-tGglJ5QAg8HkF5i6SoYB8ilq44&export=download">Download this issue</a>
-		  &nbsp;
-		  &nbsp;
+		  <Button mr={2} bg='track'
+			 sx={{
+			 ':hover': {
+			 backgroundColor: 'buttonColored',
+			 }
+			 }}>
+		  <a href="https://drive.google.com/uc?id=1eui5T-tGglJ5QAg8HkF5i6SoYB8ilq44&export=download">
+		  <h3>Download</h3>
+		  </a>
+		  </Button>
+        <br />
+        <br />
 		  <iframe title="June-2020" src="https://drive.google.com/file/d/1eui5T-tGglJ5QAg8HkF5i6SoYB8ilq44/preview" width="100%" height="800" frameborder="0" allowfullscreen="true"></iframe>
 		  &nbsp;
 		  &nbsp;
@@ -101,7 +111,7 @@ export default class ClientFetchingExample extends Component {
 		  <br />
 		  <br />
 	       {<Subscription />}
-        </LocalContainer>
+		  </LocalContainer>
         </Section>
       </Layout>
     );
