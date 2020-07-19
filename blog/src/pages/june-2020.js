@@ -90,7 +90,7 @@ export default class ClientFetchingExample extends Component {
 			 backgroundColor: 'buttonColored',
 			 }
 			 }}>
-		  <a href="https://drive.google.com/uc?id=1eui5T-tGglJ5QAg8HkF5i6SoYB8ilq44&export=download">
+		  <a href="https://drive.google.com/uc?export=download&id=1eui5T-tGglJ5QAg8HkF5i6SoYB8ilq44">
 		  <h3>Download</h3>
 		  </a>
 		  </Button>
