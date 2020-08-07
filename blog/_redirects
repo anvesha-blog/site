@@ -6,6 +6,3 @@
 /thoughts/               /blog/
 /search/                 /
 # These rules will change if you change your site’s custom domains or HTTPS settings
-
-# Optional: Redirect default Netlify subdomain to primary domain
-https://serene-haibt-80ebc8.netlify.com/* https://reckoning.dev/:splat 301!
