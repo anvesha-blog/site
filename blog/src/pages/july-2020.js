@@ -90,13 +90,13 @@ export default class ClientFetchingExample extends Component {
 			 backgroundColor: 'buttonColored',
 			 }
 			 }}>
-		  <a href="https://drive.google.com/uc?id=1vIQrdzyEKZ-2mBWAWtDZ72ppndMY7omg&export=download"> //--------------------enter link here
+		  <a href="58fbdc45c50cdb361319658191ba550d/July_2020_Issue_11.pdf"> 
 		  <h3>Download</h3>
 		  </a>
 		  </Button>
         <br />
         <br />
-		  <iframe title="June-2020" src="https://drive.google.com/file/d/1vIQrdzyEKZ-2mBWAWtDZ72ppndMY7omg/preview" width="100%" height="800" frameborder="0" allowfullscreen="true"></iframe> //------------------enter link here
+		  <iframe title="June-2020" src="https://drive.google.com/file/d/1vIQrdzyEKZ-2mBWAWtDZ72ppndMY7omg/preview" width="100%" height="800" frameborder="0" allowfullscreen="true"></iframe> 
 		  &nbsp;
 		  &nbsp;
 		  &nbsp;
