@@ -84,6 +84,7 @@ export default class ClientFetchingExample extends Component {
         <br />
         <Section narrow>
         <LocalContainer>
+		<div style={{"display": "grid", "justify-content":"center"}}>
 		  <Button mr={2} bg='track'
 			 sx={{
 			 ':hover': {
@@ -94,6 +95,7 @@ export default class ClientFetchingExample extends Component {
 		  <h3>Download</h3>
 		  </a>
 		  </Button>
+		</div>
         <br />
         <br />
 		  <iframe title="January-2020" src="https://drive.google.com/file/d/1F7jz5ptn3m9GgsNIgYNGEWB-q_elRPCZ/preview" width="100%" height="800" frameborder="0" allowfullscreen="true"></iframe>
