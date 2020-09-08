@@ -114,7 +114,11 @@ export default class ClientFetchingExample extends Component {
 		  <br />
 	       {<Subscription />}
 		  </LocalContainer>
+<<<<<<< HEAD
         </Section>
+=======
+        </Section>  
+>>>>>>> 63d7d23c176655b615ac5356a94ba153037a6b0d
       </Layout>
     );
   }
