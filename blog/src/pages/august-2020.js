@@ -77,7 +77,7 @@ export default class ClientFetchingExample extends Component {
         <SEO />
         <Hero>
           <div className='author'>
-            <h1 className='author__site-title'>Newsletter Issue - July 2020</h1>
+            <h1 className='author__site-title'>Newsletter Issue - August 2020</h1>
           </div>
         </Hero>
         <br />
@@ -91,14 +91,14 @@ export default class ClientFetchingExample extends Component {
 			 backgroundColor: 'buttonColored',
 			 }
 			 }}>
-		  <a href="/58fbdc45c50cdb361319658191ba550d/July_2020_Issue_11.pdf"> 
+		  <a href="/b01c5c82a4915c2831f5037e3272cbc9/August_2020_Issue_12.pdf"> 
 		  <h3>Download</h3>
 		  </a>
 		  </Button>
 		  </div>
         <br />
         <br />
-		  <iframe title="July-2020" src="https://drive.google.com/file/d/1vIQrdzyEKZ-2mBWAWtDZ72ppndMY7omg/preview" width="100%" height="800" frameborder="0" allowfullscreen="true"></iframe> 
+		  <iframe title="August-2020" src="https://drive.google.com/file/d/1948Eq4njCKmQ7outQoBnp6slIoz39R3c/preview" width="100%" height="800" frameborder="0" allowfullscreen="true"></iframe> 
 		  &nbsp;
 		  &nbsp;
 		  &nbsp;
