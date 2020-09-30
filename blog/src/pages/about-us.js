@@ -214,7 +214,7 @@ export default class ClientFetchingExample extends Component {
             </p>
 
             <p>
-              We also have a monthly science newsletter called <a href="/newsletters/">‘Exhibit: A’</a>               where we bring to you the latest in science! Our goal has always
+              We also have a monthly science newsletter called <a href="/newsletters/">‘Exhibit A’</a>               where we bring to you the latest in science! Our goal has always
               been to make these platforms as collaborative as possible; we
               would love to share your content! Send your submissions to <a href="mailto:anveshacontent@gmail.com">anveshacontent@gmail.com</a> (external submissions are more than
               welcome.)
