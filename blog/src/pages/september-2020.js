@@ -91,7 +91,7 @@ export default class ClientFetchingExample extends Component {
 			 backgroundColor: 'buttonColored',
 			 }
 			 }}>
-		  <a href="010b1fff7b364fae48748650857bcf03/September_2020_Issue_13.pdf"> 
+		  <a href="/010b1fff7b364fae48748650857bcf03/September_2020_Issue_13.pdf"> 
 		  <h3>Download</h3>
 		  </a>
 		  </Button>
