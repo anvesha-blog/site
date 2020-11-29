@@ -139,7 +139,7 @@ export default class ClientFetchingExample extends Component {
 				<Text color='#111'>Issue 14</Text>
 			 </Card>
 			 </a>
-             <a href="../october-2020">
+             <a href="../september-2020">
 			 <Card width={256}
 			 sx={{
 				p: 2,
