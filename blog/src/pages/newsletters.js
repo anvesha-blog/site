@@ -134,7 +134,7 @@ export default class ClientFetchingExample extends Component {
 				  transform: 'scale(2.15)',
 				 },
 			 }}>
-				<Image src={"https://imgur.com/a/2Z4bwRU.png"} />
+				<Image src={"https://i.imgur.com/a/2Z4bwRU.png"} />
 				<Heading>January 2021</Heading>
 				<Text color='#111'>Issue 16</Text>
 			 </Card>
