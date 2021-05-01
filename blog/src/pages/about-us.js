@@ -662,7 +662,7 @@ export default class ClientFetchingExample extends Component {
                 <h2>Ravikiran Hegde</h2>
                 <h3>Content Creator, Batch '19</h3>
                 <p>
-                  An aspiring physicist and a natural leader from Karnataka,
+                  An aspiring physicist and an avid learner from Karnataka,
                   Ravikiran is just the man for you if you want something sorted
                   out! He enjoys math and coding, and has a particular interest
                   in fusion music such as the Indo-western genre.
