@@ -91,8 +91,10 @@ const Article: Template = ({ data, pageContext, location }) => {
         <MDXRenderer content={article.body} headings={headings}>
           <ArticleShare />
         </MDXRenderer>
+		<CommentWidth>
 		<HyvorTalk.Embed websiteId={1228} />
-      </ArticleBody>
+		</CommentWidth>
+		</ArticleBody>
       {!article.secret && (
         <PaginationWrapper>
           <PaginationButton>
@@ -158,6 +160,26 @@ const PaginationWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0 auto 35px;
+  width: 100%;
+  max-width: 980px;
+
+  ${mediaqueries.desktop`
+    max-width: 807px;
+  `}
+
+  ${mediaqueries.tablet`
+    max-width: 526px;
+    margin: 0 auto 45px;
+  `};
+
+  ${mediaqueries.phablet`
+    padding: 0 20px;
+  `};
+`;
+
+const CommentWidth = styled.div`
+  align-items: center;
   margin: 0 auto 35px;
   width: 100%;
   max-width: 980px;
