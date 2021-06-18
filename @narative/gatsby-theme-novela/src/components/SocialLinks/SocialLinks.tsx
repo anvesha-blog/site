@@ -13,22 +13,15 @@ interface SocialLinksProps {
 }
 
 const icons = {
-  behance: Icons.Behance,
-  dribbble: Icons.Dribbble,
   linkedin: Icons.LinkedIn,
   twitter: Icons.Twitter,
   facebook: Icons.Facebook,
   instagram: Icons.Instagram,
-  devto: Icons.DevTo,
-  github: Icons.Github,
-  stackoverflow: Icons.Stackoverflow,
   youtube: Icons.YouTube,
   medium: Icons.Medium,
-  unsplash: Icons.Unsplash,
   patreon: Icons.Patreon,
   paypal: Icons.Paypal,
-  digitalocean: Icons.DigitalOcean,
-  tripadvisor: Icons.TripAdvisor,
+  gmail: Icons.Gmail,
 };
 
 const getHostname = url => {
@@ -63,8 +56,17 @@ const SocialLinks: React.FC<SocialLinksProps> = ({
             <Icon fill={fill} />
             <Hidden>Link to ${option.url}</Hidden>
           </SocialIconContainer>
-        );
+			 );
       })}
+          <SocialIconContainer
+              key="mailto:anveshacontent@gmail.com"
+              target="_blank"
+              rel="noopener nofollow"
+              data-a11y="false"
+              href="mailto:anveshacontent@gmail.com"
+          >
+            <Icons.Gmail fill={fill} />
+          </SocialIconContainer>
     </>
   );
 };

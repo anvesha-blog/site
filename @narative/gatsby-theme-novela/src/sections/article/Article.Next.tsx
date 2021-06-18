@@ -131,7 +131,7 @@ const ImageContainer = styled.div`
   }
 
   ${mediaqueries.tablet`
-    height: 220px;
+    height: 230px;
     margin-bottom: 35px;
   `}
 

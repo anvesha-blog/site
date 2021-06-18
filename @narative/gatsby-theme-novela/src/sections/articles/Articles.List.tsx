@@ -146,7 +146,7 @@ const narrow = '457px';
 const limitToTwoLines = css`
   text-overflow: ellipsis;
   overflow-wrap: normal;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 2; // TODO: change this line for increasing the limit
   -webkit-box-orient: vertical;
   display: -webkit-box;
   white-space: normal;

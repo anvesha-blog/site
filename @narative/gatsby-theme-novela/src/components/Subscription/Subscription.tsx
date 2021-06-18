@@ -48,7 +48,7 @@ const Subscription: React.FC<{}> = () => {
           </Text>
           <Form onSubmit={handleSubmit} hasError={error}>
             <Input
-              placeholder="your@email.com"
+              placeholder="you@email.com"
               name="email"
               type="email"
               value={email}
@@ -132,21 +132,21 @@ const Text = styled.p`
 
 const Form = styled.form<{ hasError: string }>`
   position: relative;
-
-  &::after {
-    content: '>';
-    position: absolute;
-    left: 21px;
-    top: 10px;
-    color: ${(p) =>
-      p.hasError ? p.theme.colors.error : p.theme.colors.accent};
-
-    ${mediaqueries.tablet`
-    left: 34px;
-    top: 11px;
-  `}
-  }
 `;
+
+  //&::after {
+    //content: '>';
+    //position: absolute;
+    //left: 21px;
+    //top: 10px;
+    //color: ${(p) =>
+      //p.hasError ? p.theme.colors.error : p.theme.colors.accent};
+
+    //${mediaqueries.tablet`
+    //left: 34px;
+    //top: 11px;
+  //`}
+  //}
 
 const Input = styled.input<{ hasError: string }>`
   position: relative;
@@ -156,8 +156,8 @@ const Input = styled.input<{ hasError: string }>`
       : p.theme.colors.inputBackground};
   border-radius: 35px;
   border: none;
-  padding: 13px 21px 13px 35px;
-  width: 471px;
+  padding: 13px 21px 13px 20px;
+  width: 640px;
   color: ${(p) => p.theme.colors.primary};
 
   ::placeholder {
@@ -183,8 +183,8 @@ const Input = styled.input<{ hasError: string }>`
 
 const Button = styled.button<{ hasError: string; subscribed: boolean }>`
   position: absolute;
-  left: 306px;
-  top: 3px;
+  left: 470px;
+  top: 6px;
   display: flex;
   align-items: center;
   justify-content: center;
