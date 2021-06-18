@@ -31,12 +31,12 @@ export default {
   tocLinkFocusColor: '#4b5157',
   modes: {
     dark: {
-      grey: '#73737D',
+      grey: '#808080',
       primary: '#fff',
       secondary: '#fff',
 		paracolor: '#d8d8d6',
       accent: '#E9DAAC',
-      background: '#111216',
+      background: '#212121',
       hero: 'rgba(66, 81, 98, 0.36)',
       tagBackground: '#404040',
       tagText: '#bfc9ca',

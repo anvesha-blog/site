@@ -217,7 +217,7 @@ const MobileControls = styled.div`
 const ArticleBody = styled.article`
   position: relative;
   padding: 90px 0 35px;
-  padding-left: 68px;
+  padding-left: 35px;
   transition: background 0.2s linear;
 
   ${mediaqueries.desktop`

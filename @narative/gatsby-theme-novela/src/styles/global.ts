@@ -15,7 +15,7 @@ export const globalStyles = css`
   }
 
   @font-face {
-    font-family: '-apple-system', 'BlinkMacSystemFont', 'San Francisco',
+    font-family: '-apple-system', 'BlinkMacSystemFont', 'San Francisco', 
       'Helvetica Neue', 'Helvetica', 'Ubuntu', 'Roboto', 'Noto', 'Segoe UI',
       'Arial', sans-serif;
     font-weight: 400;
