@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 
 const Anchor = styled.a`
   transition: ${p => p.theme.colorModeTransition};
-  color: ${p => p.theme.colors.accent};
+  color: ${p => p.theme.colors.hyperlink};
 
   &:visited {
     color: ${p => p.theme.colors.accent};
@@ -11,7 +11,9 @@ const Anchor = styled.a`
 
   &:hover,
   &:focus {
-    text-decoration: underline;
+	 color: ${p => p.theme.colors.background};
+	 background-color: ${p => p.theme.colors.linkhover};
+	 text-decoration: underline;
   }
 `;
 

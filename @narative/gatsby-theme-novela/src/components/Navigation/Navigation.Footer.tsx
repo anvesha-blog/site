@@ -58,7 +58,7 @@ const Footer: React.FC<{}> = () => {
 			 {
             // © {copyrightDate} {name}
           }
-			 © 2021 {name}
+			 © 2019-2021 {name}
           </FooterText>
           <div>
             <SocialLinks links={social} />

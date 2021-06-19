@@ -35,23 +35,29 @@ const ArticlesHero: React.FC<IAuthor> = ({ authors }) => {
   const results = useStaticQuery(authorQuery);
   const hero = results.site.edges[0].node.siteMetadata.hero;
   const tilesIsActive = hasSetGridLayout && gridLayout === 'tiles';
-  const featuredAuthor = authors.find(author => author.featured);
+  //const featuredAuthor = authors.find(author => author.featured);
 
-  if (!featuredAuthor) {
-    throw new Error(`
-      No featured Author found.
-      Please ensure you have at least featured Author.
-  `);
-  }
+  //if (!featuredAuthor) {
+    //throw new Error(`
+      //No featured Author found.
+      //Please ensure you have at least featured Author.
+  //`);
+  //}
 
   return (
     <Section relative id="Articles__Hero">
       <HeadingContainer style={{ maxWidth: `${hero.maxWidth}px` }}>
+		{
+		  // TODO: Add slideshow here
+		}
         <HeroHeading dangerouslySetInnerHTML={{ __html: hero.heading }} />
       </HeadingContainer>
       <SubheadingContainer>
-        <Bio author={featuredAuthor} />
-        <GridControlsContainer>
+		{
+        //<Bio author={featuredAuthor} />
+		}
+		<LatestArticles />
+		<GridControlsContainer>
           <GridButton
             onClick={() => setGridLayout('tiles')}
             active={tilesIsActive}
@@ -82,7 +88,8 @@ const SubheadingContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
+  border-bottom: 2px solid ${(p) => p.theme.colors.horizontalRule};
 
   ${mediaqueries.desktop`
     margin-bottom: 80px;
@@ -123,6 +130,7 @@ const HeroHeading = styled.h1`
   font-weight: 400;
   font-size: 30px;
   line-height: 1.15;
+  padding-bottom: 20px;
   color: ${p => p.theme.colors.primary};
 
   a {
@@ -136,6 +144,15 @@ const HeroHeading = styled.h1`
   ${mediaqueries.phablet`
     font-size: 22px;
   `}
+`;
+
+const LatestArticles = styled.h1`
+	 :before {
+		content: "Latest Articles ✍️";
+      color: ${p => p.theme.colors.primary}; 
+		font-size: 28px;
+		font-weight: 600;
+	 }
 `;
 
 const GridButton = styled.button<{ active: boolean }>`

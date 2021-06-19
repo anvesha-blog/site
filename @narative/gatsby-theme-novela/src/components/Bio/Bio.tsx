@@ -81,10 +81,10 @@ const BioText = styled.p`
   max-width: 430px;
   font-size: 14px;
   line-height: 1.45;
-  color: ${p => p.theme.colors.grey};
+  color: ${p => p.theme.colors.primary};
 
   a {
-    color: ${p => p.theme.colors.grey};
+    color: ${p => p.theme.colors.primary};
     text-decoration: underline;
   }
 `;

@@ -7,6 +7,8 @@ import Section from '@components/Section';
 import Logo from '@components/Logo';
 import StatsLogo from '@components/StatsLogo';
 import InfoLogo from '@components/InfoLogo';
+import { BsFillPeopleFill } from 'react-icons/bs';
+import { IoIosPaper } from 'react-icons/io';
 
 import Icons from '@icons';
 import mediaqueries from '@styles/media';
@@ -156,7 +158,7 @@ const NavigationHeader: React.FC<{}> = () => {
                 back="false"
                 home="false"
               >
-                <InfoLogo fill={fill} />
+                <BsFillPeopleFill fill={fill} size={35} />
                 <Hidden>About Me</Hidden>
               </LogoLink>
               <LogoLink
@@ -167,7 +169,7 @@ const NavigationHeader: React.FC<{}> = () => {
                 back="false"
                 home="false"
               >
-                <StatsLogo fill={fill} />
+                <IoIosPaper fill={fill} size={29} />
                 <Hidden>Code::Stats</Hidden>
               </LogoLink>
               <SharePageButton />
@@ -216,6 +218,7 @@ const NavContainer = styled.div`
   position: relative;
   z-index: 100;
   padding-top: 100px;
+  padding-bottom: 50px;
   display: flex;
   justify-content: space-between;
 

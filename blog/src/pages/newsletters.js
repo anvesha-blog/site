@@ -13,11 +13,9 @@ import {
 } from 'rebass'
 
 const Hero = styled.div`
-  background-color: ${p => p.theme.colors.hero};
   color: ${p => p.theme.colors.primary};
-  margin-top: 52px;
+  margin-top: 20px;
   padding-top: 20px;
-  padding-bottom: 20px;
   .author {
     margin: 0 auto;
     max-width: 600px;
@@ -52,8 +50,8 @@ const LocalContainer = styled.div`
     font-weight: 600;
   }
   h2,h3 {
-    font-size: 2.8rem;
-	 font-family: Helvetica;
+    font-size: 2.2rem;
+	 font-family: Inter;
     line-height: 1.3;
     margin: 1rem 0 2rem;
     border-bottom: 2px solid rgba(8,8,11,0.15);

@@ -15,11 +15,9 @@ import mediaqueries from '@styles/media';
 import Subscription from '@components/Subscription';
 
 const Hero = styled.div`
-  background-color: ${(p) => p.theme.colors.hero};
   color: ${(p) => p.theme.colors.primary};
   margin-top: 52px;
   padding-top: 20px;
-  padding-bottom: 20px;
   .author {
     margin: 0 auto;
     max-width: 600px;
@@ -69,7 +67,7 @@ const LocalContainer = styled.div`
   }
   p {
     font-size: 1.8rem;
-    font-family: Helvetica;
+    font-family: Inter;
     color: ${(p) => p.theme.colors.paracolor};
     display: block;
     margin-block-start: 1em;
@@ -80,15 +78,15 @@ const LocalContainer = styled.div`
   details,
   summary {
     font-size: 1.8rem;
-    font-family: Helvetica;
+    font-family: Inter;
     color: ${(p) => p.theme.colors.paracolor};
     display: block;
   }
   a {
-    color: navyblue;
+    color: ${p => p.theme.colors.hyperlink};
 
     &:hover {
-      color: crimson;
+    color: ${p => p.theme.colors.linkhover};
     }
   }
 
@@ -112,7 +110,7 @@ const LocalContainer = styled.div`
   }
   p {
     font-size: 1.8rem;
-    font-family: Helvetica;
+    font-family: Inter;
     color: ${(p) => p.theme.colors.paracolor};
     display: block;
     margin-block-start: 1em;
@@ -123,7 +121,7 @@ const LocalContainer = styled.div`
   details,
   summary {
     font-size: 1.8rem;
-    font-family: Helvetica;
+    font-family: Inter;
     color: ${(p) => p.theme.colors.paracolor};
     display: block;
   }
@@ -145,7 +143,7 @@ const LocalContainer = styled.div`
   }
   p {
     font-size: 1.6rem;
-    font-family: Helvetica;
+    font-family: Inter;
     color: ${(p) => p.theme.colors.paracolor};
     display: block;
     margin-block-start: 1em;
@@ -156,7 +154,7 @@ const LocalContainer = styled.div`
   details,
   summary {
     font-size: 1.6rem;
-    font-family: Helvetica;
+    font-family: Inter;
     color: ${(p) => p.theme.colors.paracolor};
     display: block;
   }

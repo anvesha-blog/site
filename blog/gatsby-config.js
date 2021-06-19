@@ -52,6 +52,9 @@ const plugins = [
 	 options: {
 		fonts: [
 		  `Megrim`,
+		  `David Libre`,
+		  `Inter`,
+		  `Libre Baskerville`,
 		]
 	 }
   },

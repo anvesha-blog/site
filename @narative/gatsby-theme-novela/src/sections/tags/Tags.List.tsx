@@ -92,12 +92,17 @@ const TagBox = styled.div`
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   color: ${(p) => p.theme.colors.tagText};
-  font-size: 12px;
-  font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  font-size: 14px;
+  font-family: 'Open Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
   text-decoration: none;
   text-overflow: ellipsis;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   font-weight: bold;
   white-space: nowrap;
+  border-radius: 8px;
+
+	 :hover{
+		background-color: ${p => p.theme.colors.accent};
+	 }
 `;

@@ -146,7 +146,7 @@ const narrow = '457px';
 const limitToTwoLines = css`
   text-overflow: ellipsis;
   overflow-wrap: normal;
-  -webkit-line-clamp: 2; // TODO: change this line for increasing the limit
+  -webkit-line-clamp: 4; // TODO: change this line for increasing the limit
   -webkit-box-orient: vertical;
   display: -webkit-box;
   white-space: normal;
@@ -304,8 +304,8 @@ const ImageContainer = styled.div<{ narrow: boolean; gridLayout: string }>`
 `;
 
 const Title = styled(Headings.h2)`
-  font-size: 21px;
-  font-family: ${(p) => p.theme.fonts.serif};
+  font-size: 28px;
+  font-family: 'David Libre';
   margin-bottom: ${(p) =>
     p.hasOverflow && p.gridLayout === 'tiles' ? '35px' : '10px'};
   transition: color 0.3s ease-in-out;
@@ -333,7 +333,7 @@ const Excerpt = styled.p<{
   gridLayout: string;
 }>`
   ${limitToTwoLines};
-  font-size: 16px;
+  font-size: 18px;
   margin-bottom: 10px;
   color: ${(p) => p.theme.colors.grey};
   display: ${(p) =>
@@ -381,7 +381,7 @@ const MetaData = styled.div<{
 }>`
   font-weight: 600;
   font-size: 16px;
-  color: ${(p) => p.theme.colors.grey};
+  color: ${(p) => p.theme.colors.primary};
 
   ${(p) =>
     p.tags
@@ -396,6 +396,7 @@ const MetaData = styled.div<{
 `;
 
 const ArticleLink = styled(Link)`
+  font-family: 'Inter';
   &:hover ${ImageContainer}, &:focus ${ImageContainer} {
     transform: translateY(-1px);
     box-shadow: 0 50px 80px -20px rgba(0, 0, 0, 0.27),

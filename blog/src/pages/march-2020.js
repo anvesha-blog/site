@@ -8,11 +8,9 @@ import HyvorTalk from 'hyvor-talk-react';
 import { Button } from 'rebass';
 
 const Hero = styled.div`
-  background-color: ${p => p.theme.colors.hero};
   color: ${p => p.theme.colors.primary};
-  margin-top: 52px;
+  margin-top: 20px;
   padding-top: 20px;
-  padding-bottom: 20px;
   .author {
     margin: 0 auto;
     max-width: 600px;
