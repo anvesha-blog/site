@@ -1,9 +1,9 @@
 require("dotenv").config();
 
 const siteMetadata = {
-  title: `Anvesha Blog`,
+  title: `Exhibit A`,
   name: `Anvesha`,
-  siteUrl: `https://anveshablog.netlify.app/`,
+  siteUrl: `https://www.anveshablog.com/`,
   description: `Official blog of Anvesha, the science club of IISER Thiruvananthapuram.`,
   hero: {
     heading: `Welcome to Anvesha blog! Check out our newsletters <a href="/newsletters/">here</a>.`,

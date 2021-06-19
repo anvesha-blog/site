@@ -2,6 +2,7 @@ import React, { useRef, useState, useEffect } from 'react';
 import styled from '@emotion/styled';
 import throttle from 'lodash/throttle';
 import { graphql, Link } from 'gatsby';
+import { FaCaretLeft, FaCaretRight } from 'react-icons/fa';
 
 import Layout from '@components/Layout';
 import MDXRenderer from '@components/MDX';
@@ -104,7 +105,7 @@ const Article: Template = ({ data, pageContext, location }) => {
                 to={`${prevPage.slug}`}
                 aria-label="Prev"
               >
-                ❮❮ Previous
+                <FaCaretLeft /> Previous &nbsp;
               </Link>
             )}
           </PaginationButton>
@@ -112,7 +113,7 @@ const Article: Template = ({ data, pageContext, location }) => {
           <PaginationButton>
             {nextPage && !nextPage.secret && (
               <Link className="next" to={`${nextPage.slug}`} aria-label="Next">
-                Next ❯❯
+               &nbsp; Next <FaCaretRight />
               </Link>
             )}
           </PaginationButton>
@@ -160,7 +161,7 @@ const PaginationWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 auto 35px;
+  margin: 0 auto 65px;
   width: 100%;
   max-width: 980px;
 
@@ -204,7 +205,7 @@ const PaginationButton = styled.div`
   a {
     text-decoration: none;
     display: inline-block;
-    padding: 8px 16px;
+    padding: 8px 12px;
   }
 
   a:hover {

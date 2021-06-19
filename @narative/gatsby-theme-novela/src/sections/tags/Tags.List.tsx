@@ -62,7 +62,7 @@ const TagLink = styled(Link)`
   text-overflow: ellipsis;
   max-width: 100%;
   height: 100%;
-  margin: 4px 4px;
+  margin: 4px 10px 4px 0px;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 
   &:hover,
@@ -82,8 +82,8 @@ const TagBox = styled.div`
   height: 24px;
   line-height: 24px;
   position: relative;
-  margin: 0 4px 4px 0;
-  padding: 0 10px 0 12px;
+  margin: 4px 0px;
+  padding: 0 10px 0 10px;
   background-color: ${(p) => p.theme.colors.tagBackground};
   -webkit-border-bottom-right-radius: 3px;
   border-bottom-right-radius: 3px;

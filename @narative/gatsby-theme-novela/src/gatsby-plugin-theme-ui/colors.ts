@@ -10,7 +10,7 @@ export default {
   background: '#fafafa',
   hero: '#dddddd',
   tagBackground: '#ddd',
-  tagText: '#0b5345',
+  tagText: '#3b3b3b',
   accent: '#6166DC',
   hover: 'rgba(0, 0, 0, 0.07)',
   gradient: 'none',
@@ -32,7 +32,7 @@ export default {
   modes: {
     dark: {
       grey: '#808080',
-      primary: '#fff',
+      primary: '#e5e5e5',
       secondary: '#fff',
 		paracolor: '#d8d8d6',
       accent: '#E9DAAC',
@@ -44,7 +44,8 @@ export default {
       articleText: '#d8d8d6',
       track: 'rgba(255, 255, 255, 0.3)',
       progress: '#fff',
-      card: '#1D2128',
+      //card: '#1D2128',
+		card: '#333344',
       error: '#EE565B',
       success: '#46B17B',
       errorBackground: 'rgba(238, 86, 91, 0.1)',
