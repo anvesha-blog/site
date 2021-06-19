@@ -6,7 +6,7 @@ const siteMetadata = {
   siteUrl: `https://www.anveshablog.com/`,
   description: `Official blog of Anvesha, the science club of IISER Thiruvananthapuram.`,
   hero: {
-    heading: `Welcome to Anvesha blog! Check out our newsletters <a href="/newsletters/">here</a>.`,
+    heading: `Welcome to Anvesha blog! Check out our <a href="/newsletters/">newsletters</a>.`,
     maxWidth: 1052,
   },
   social: [
