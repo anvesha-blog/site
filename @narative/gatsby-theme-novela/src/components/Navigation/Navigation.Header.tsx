@@ -218,15 +218,15 @@ const LogoMobile = styled.div`
 const LogoText = styled.div`
   font-size: 18px;
   color: ${(p) => p.theme.colors.primary};
-  display: block;
   margin: -5px 0px 0px 15px;
   margin-left: 0;
   font: normal 3.5em 'Megrim', serif;
   font-weight: 800;
 
-  ${mediaqueries.tablet`
-      display: none;
-    `}
+  @media (max-width: 920px) {
+	 display: none;
+  }
+
 `;
 
 const NavContainer = styled.div`
