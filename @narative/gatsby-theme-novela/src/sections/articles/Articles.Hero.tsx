@@ -150,8 +150,8 @@ const LatestArticles = styled.h1`
 	 :before {
 		content: "Latest Articles";
       color: ${p => p.theme.colors.primary}; 
-		font-size: 32px;
-		font-weight: 600;
+		font-size: 1.6em;
+		font-weight: 500;
 		font-family: 'Merriweather';
 	 }
 `;

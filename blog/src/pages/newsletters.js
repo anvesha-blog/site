@@ -19,8 +19,8 @@ const Hero = styled.div`
   .author {
     margin: 0 auto;
     max-width: 600px;
-    text-align: center;
     padding: 0.5rem 0.75rem;
+	 padding-left: 0;
     &__logo {
       border-radius: 10%;
       width: 60px;
@@ -33,15 +33,16 @@ const Hero = styled.div`
       margin-bottom: 2em;
     }
     &__site-title {
-	  font-family: Merriweather;
-      font-size: 1.8em;
-      font-weight: 400;
+	   text-align: none;
+	   font-family: Merriweather;
+      font-weight: 500;
+	   font-size: 1.6em;
+		border-bottom: 2px solid ${p => p.theme.colors.horizontalRule};
     }
   }
 `;
 
 const LocalContainer = styled.div`
-  padding: 0 1.5rem;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: auto;
@@ -84,21 +85,23 @@ export default class ClientFetchingExample extends Component {
     return (
       <Layout>
         <SEO />
-        <Hero>
-          <div className='author'>
-            <img alt='Newsletters' className='author__logo' src={'https://i.imgur.com/BvD7wOes.png'} />
-            <h1 className='author__site-title'>Newsletters Archive</h1>
-          </div>
-        </Hero>
-        <br />
-        <br />
+		{
+        //<Hero>
+          //<div className='author'>
+            //<h1 className='author__site-title'>Newsletters Archive</h1>
+          //</div>
+        //</Hero>
+		}
         <Section narrow>
         <LocalContainer>
+		  <Hero>
+        <h1 className='author__site-title'>Newsletters Archive</h1>
+		  </Hero>
 		  <Box
 			 sx={{
 				display: 'grid',
 				justifyContent: 'center',
-				gridGap: 3,
+				gridGap: 4,
 				gridRowGap: 5,
 				gridTemplateColumns: 'repeat(auto-fit, minmax(256px, 1fr))',
 				margin: '2em 0',

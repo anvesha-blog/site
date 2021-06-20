@@ -11,7 +11,7 @@ const Anchor = styled.a`
 
   &:hover,
   &:focus {
-	 color: ${p => p.theme.colors.background};
+	 color: ${p => p.theme.colors.texthover};
 	 background-color: ${p => p.theme.colors.linkhover};
 	 text-decoration: underline;
   }
