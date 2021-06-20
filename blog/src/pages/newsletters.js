@@ -33,6 +33,7 @@ const Hero = styled.div`
       margin-bottom: 2em;
     }
     &__site-title {
+	  font-family: Merriweather;
       font-size: 1.8em;
       font-weight: 400;
     }
@@ -51,7 +52,7 @@ const LocalContainer = styled.div`
   }
   h2,h3 {
     font-size: 2.2rem;
-	 font-family: Inter;
+	 font-family: Merriweather;
     line-height: 1.3;
     margin: 1rem 0 2rem;
     border-bottom: 2px solid rgba(8,8,11,0.15);

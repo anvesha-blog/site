@@ -135,7 +135,6 @@ const NavigationHeader: React.FC<{}> = () => {
               <Icons.ChevronLeft fill={fill} />
             </BackArrowIconContainer>
           )}
-          <Logo fill={fill} />
           <LogoText>Exhibit A</LogoText>
           <Hidden>Navigate back to the homepage</Hidden>
         </LogoLink>
@@ -206,7 +205,8 @@ const LogoText = styled.div`
   color: ${(p) => p.theme.colors.primary};
   display: block;
   margin: -5px 0px 0px 15px;
-  font: normal 2.4em 'Megrim', serif;
+  margin-left: 0;
+  font: normal 3.5em 'Megrim', serif;
   font-weight: 800;
 
   ${mediaqueries.tablet`

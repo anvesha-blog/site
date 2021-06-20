@@ -148,10 +148,11 @@ const HeroHeading = styled.h1`
 
 const LatestArticles = styled.h1`
 	 :before {
-		content: "Latest Articles ✍️";
+		content: "Latest Articles";
       color: ${p => p.theme.colors.primary}; 
-		font-size: 28px;
+		font-size: 32px;
 		font-weight: 600;
+		font-family: 'Merriweather';
 	 }
 `;
 

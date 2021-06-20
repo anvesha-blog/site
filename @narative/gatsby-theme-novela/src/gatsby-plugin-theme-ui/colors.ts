@@ -60,7 +60,7 @@ export default {
       horizontalRule: 'rgba(255, 255, 255, 0.15)',
       inputBackground: 'rgba(255, 255, 255, 0.07)',
       tocBackground: '#191919',
-		buttonColored: '#1E88E5',
+		buttonColored: 'rgb(10,10,10)',
     },
   },
 };
