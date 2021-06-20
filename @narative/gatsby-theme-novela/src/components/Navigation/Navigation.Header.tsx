@@ -135,6 +135,7 @@ const NavigationHeader: React.FC<{}> = () => {
               <Icons.ChevronLeft fill={fill} />
             </BackArrowIconContainer>
           )}
+			 <LogoMobile />
           <LogoText>Exhibit A</LogoText>
           <Hidden>Navigate back to the homepage</Hidden>
         </LogoLink>
@@ -198,6 +199,20 @@ const BackArrowIconContainer = styled.div`
   ${mediaqueries.desktop_medium`
     display: none;
   `}
+`;
+
+const LogoMobile = styled.div`
+  ::before {
+	 content: "A";
+	 font-family: Megrim;
+	 font-weight: 800;
+	 display: block;
+	 font-size: 4em;
+	 color: ${(p) => p.theme.colors.primary};
+  }
+  @media (min-width: 920px) {
+	 display: none;
+  }
 `;
 
 const LogoText = styled.div`
