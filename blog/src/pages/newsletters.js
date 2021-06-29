@@ -106,6 +106,41 @@ export default class ClientFetchingExample extends Component {
 				gridTemplateColumns: 'repeat(auto-fit, minmax(256px, 1fr))',
 				margin: '2em 0',
 		  }}>
+			 <a href="/">
+			 <Card width={256}
+			 sx={{
+				p: 2,
+				bg: '#dddddd',
+				zIndex: '0',
+				overflow: 'hidden',
+				borderRadius: 5,
+				border: '1px solid #dddddd',
+				boxShadow: '0px 0px 2px rgba(38, 38, 38, 0.2)',
+				':hover':{
+				  transition: 'all 0.2s ease-out',
+				  boxShadow: '0px 4px 8px rgba(58, 58, 58, 0.5)',
+				  top: '-4px',
+				  border: '1px solid #cccccc',
+				  backgroundColor: 'white',
+				},
+				':before':{
+				  content: "",
+				  zIndex: '-1',
+   			  background: '#00838d',
+   			  borderRadius: '32px',
+   			  transform: 'scale(2)',
+   			  transformOrigin: '50% 50%',
+   			  transition: 'transform 0.15s ease-out',
+				 },
+				':hover:before':{
+				  transform: 'scale(2.15)',
+				 },
+			 }}>
+				<Image src={"https://i.imgur.com/rhdVImv.jpg"} />
+				<Heading>June 2021</Heading>
+				<Text color='#111'>Issue 18</Text>
+			 </Card>
+			 </a>
 			  <a href="../may-2021">
 			 <Card width={256}
 			 sx={{

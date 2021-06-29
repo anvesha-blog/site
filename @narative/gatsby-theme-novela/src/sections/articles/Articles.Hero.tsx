@@ -148,7 +148,7 @@ const HeroHeading = styled.h1`
 
 const LatestArticles = styled.h1`
 	 :before {
-		content: "Latest Articles";
+		content: "June 2021 Edition";
       color: ${p => p.theme.colors.primary}; 
 		font-size: 1.6em;
 		font-weight: 500;

@@ -28,7 +28,7 @@ const Heading = styled.h1`
   max-width: 100%;
   word-wrap: break-word;
   font-size: 38px;
-  font-family: ${p => p.theme.fonts.sansSerif};
+  font-family: Merriweather;
   color: ${p => p.theme.colors.primary};
   margin-bottom: 15px;
   font-weight: 600;

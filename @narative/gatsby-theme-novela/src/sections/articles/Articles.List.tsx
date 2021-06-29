@@ -141,12 +141,12 @@ const ListItem: React.FC<ArticlesListItemProps> = ({
 };
 
 const wide = '1fr';
-const narrow = '457px';
+const narrow = '460px';
 
 const limitToTwoLines = css`
   text-overflow: ellipsis;
   overflow-wrap: normal;
-  -webkit-line-clamp: 4; // TODO: change this line for increasing the limit
+  -webkit-line-clamp: 5; // TODO: change this line for increasing the limit
   -webkit-box-orient: vertical;
   display: -webkit-box;
   white-space: normal;
@@ -278,7 +278,7 @@ const Item = styled.div<{ gridLayout: string }>`
 
 const ImageContainer = styled.div<{ narrow: boolean; gridLayout: string }>`
   position: relative;
-  height: ${(p) => (p.gridLayout === 'tiles' ? '280px' : '220px')};
+  height: ${(p) => (p.gridLayout === 'tiles' ? '280px' : '280px')};
   box-shadow: 0 30px 60px -10px rgba(0, 0, 0, ${(p) => (p.narrow ? 0.22 : 0.3)}),
     0 18px 36px -18px rgba(0, 0, 0, ${(p) => (p.narrow ? 0.25 : 0.33)});
   margin-bottom: ${(p) => (p.gridLayout === 'tiles' ? '30px' : 0)};
@@ -304,7 +304,7 @@ const ImageContainer = styled.div<{ narrow: boolean; gridLayout: string }>`
 `;
 
 const Title = styled(Headings.h2)`
-  font-size: 32px;
+  font-size: 30px;
   font-family: 'Merriweather';
   margin-bottom: ${(p) =>
     p.hasOverflow && p.gridLayout === 'tiles' ? '35px' : '10px'};
