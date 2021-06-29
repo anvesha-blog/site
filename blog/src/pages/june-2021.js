@@ -53,27 +53,11 @@ const LocalContainer = styled.div`
     font-size: large;
     font-weight: 600;
   }
-  h2 {
-    font-size: 3rem;
-    line-height: 1.3;
-    margin: 0 0 2rem;
-    border-bottom: 2px solid ${p => p.theme.colors.horizontalRule};
-    padding-bottom: .5rem;
-    font-weight: 500;
-  }
   h3 {
     font-size: 2rem;
     line-height: 1.3;
     font-weight: 500;
   }
-  p {
-    font-size: 1.8rem;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
   a {
 	 color: ${p => p.theme.colors.accent};
   }
@@ -121,9 +105,11 @@ const ImageContainer = styled.div`
 `;
 
 const Title = styled(Headings.h2)`
-  font-size: 30px;
+  font-size: 32px;
+  font-weight: 600;
   font-family: 'Merriweather';
   transition: color 0.3s ease-in-out;
+  margin-bottom: 10px;
 
   ${mediaqueries.desktop`
     margin-bottom: 15px;
@@ -178,6 +164,57 @@ const Tags = styled.div`
     max-width: 100%;
     padding: 10px 15px 10px;
   `}
+`;
+
+const TagLink = styled(Link)`
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  height: 100%;
+  margin: 4px 10px 4px 0px;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+
+  &:hover,
+  &:focus {
+    color: ${(p) => p.theme.colors.accent};
+  }
+
+  ${mediaqueries.phablet`
+    &:active {
+      transform: scale(0.97) translateY(3px);
+    }
+  `}
+`;
+const TagBox = styled.div`
+  display: flow-root;
+  height: 24px;
+  line-height: 24px;
+  position: relative;
+  margin: 4px 0px;
+  padding: 0 10px 0 10px;
+  background-color: ${(p) => p.theme.colors.tagBackground};
+  -webkit-border-bottom-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  border-top-right-radius: 3px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  color: ${(p) => p.theme.colors.tagText};
+  font-size: 14px;
+  font-family: 'Open Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  font-weight: bold;
+  white-space: nowrap;
+  border-radius: 8px;
+
+	 :hover{
+		background-color: ${p => p.theme.colors.accent};
+	 }
 `;
 
 const MetaData = styled.div`
@@ -262,7 +299,11 @@ export default class ClientFetchingExample extends Component {
             Today · 5 min read
           </MetaData>
           <Tags>
-				Akjakjfkj
+			 <TagLink to={'/tag/lgbtqia/'}>
+				<TagBox>
+				LGBTQIA
+				</TagBox>
+			 </TagLink>
           </Tags>
     </Text>
   </Box>

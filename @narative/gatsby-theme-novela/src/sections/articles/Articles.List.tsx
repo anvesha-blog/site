@@ -153,7 +153,7 @@ const limitToTwoLines = css`
   overflow: hidden;
 
   ${mediaqueries.phablet`
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 5;
   `}
 `;
 
@@ -323,7 +323,7 @@ const Title = styled(Headings.h2)`
     font-size: 22px;
     padding: 30px 20px 0;
     margin-bottom: 10px;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 5;
   `}
 `;
 
@@ -352,7 +352,7 @@ const Excerpt = styled.p<{
     max-width: 100%;
     padding: 0 20px;
     margin-bottom: 20px;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 8;
   `}
 `;
 
