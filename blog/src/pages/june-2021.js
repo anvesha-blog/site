@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { useContext, useEffect, Component } from 'react';
 import Section from "@components/Section";
 import SEO from "@components/SEO";
 import Layout from  "@components/Layout"
@@ -7,15 +7,12 @@ import Subscription from '@components/Subscription';
 import HyvorTalk from 'hyvor-talk-react';
 import Headings from '@components/Headings';
 import mediaqueries from '@styles/media';
-import { css } from '@emotion/core';
 import { Link } from 'gatsby';
 import {
   Box,
   Card,
   Heading,
   Image,
-  Text,
-  Flex
 } from 'rebass';
 
 const Hero = styled.div`
@@ -79,7 +76,7 @@ const Item = styled.div`
 
 const ImageContainer = styled.div`
   position: relative;
-  height: 280px;
+  height: auto;
   box-shadow: 0 30px 60px -10px rgba(0, 0, 0, 0.3),
     0 18px 36px -18px rgba(0, 0, 0, 0.25);
   margin-bottom: 30;
@@ -230,7 +227,7 @@ const MetaData = styled.div`
         `
       : mediaqueries.phablet`
           max-width: 100%;
-          padding: 0 20px 30px;
+          padding: 0 20px 10px;
         `}
 `;
 
@@ -284,38 +281,133 @@ export default class ClientFetchingExample extends Component {
         <br />
         <br />
         <Section narrow>
-        <LocalContainer>
+<LocalContainer>
+ <Box
+  sx={{
+    display: 'grid',
+    columnGap: 100,
+	 rowGap: '5rem',
+	 margin: '40px auto',
+	 padding: '10px auto',
+    gridTemplateRows: 'repeat(auto-fill, minmax(25rem, 1fr))',
+  }}>       
+		<Box
+  sx={{
+    display: 'grid',
+    gridGap: 5,
+    gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
+    gridAutoRows: 32,
+	 margin: '10px auto',
+	 padding: '10px auto',
+  }}>
+  <Card
+    sx={{
+      height: 280,
+	 margin: '10px auto',
+    }}>
 		<a href='name-changes-journals'>
-<Flex mx={-2}>
-  <Box width={1/2} px={3}>
+		<ImageContainer>
 	 <Image src={'https://i.imgur.com/pDGORZy.png'}></Image>
-  </Box>
-  <Box width={1/2} px={3}>
-    <Text p={1}>
+		</ImageContainer>
+		</a>
+  </Card>
+  <Card
+    sx={{
+      height: 280,
+		margin: '10px auto',
+    }}>
+		<a href='name-changes-journals'>
       <Title>Retroactive Name Change Policies in Scientific Journals</Title>
 		<Excerpt>Although name changes are common, many scientific journals still lack comprehensive and appropriate policies to deal with them. This oversight has, and continues, to fail transgender people.
 </Excerpt>
           <MetaData>
-            Today · 5 min read
+            June 29th, 2021 · 2 mins read
           </MetaData>
+		</a>
           <Tags>
 			 <TagLink to={'/tag/lgbtqia/'}>
 				<TagBox>
 				LGBTQIA
 				</TagBox>
 			 </TagLink>
+			 <TagLink to={'/tag/ethics/'}>
+				<TagBox>
+				ethics
+				</TagBox>
+			 </TagLink>
+			 <TagLink to={'/tag/publishing/'}>
+				<TagBox>
+				publishing
+				</TagBox>
+			 </TagLink>
           </Tags>
-    </Text>
-  </Box>
-</Flex>
+  </Card>
+		</Box>
+		<Box
+  sx={{
+    display: 'grid',
+    gridGap: 5,
+    gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
+    gridAutoRows: 32
+  }}>
+  <Card
+    sx={{
+      height: 280,
+    }}>
+		<a href='name-changes-journals'>
+		<ImageContainer>
+	 <Image src={'https://i.imgur.com/pDGORZy.png'}></Image>
+		</ImageContainer>
 		</a>
-		<HyvorTalk.Embed websiteId={1228} />
+  </Card>
+  <Card
+    sx={{
+      height: 280
+    }}>
+		<a href='name-changes-journals'>
+      <Title>Retroactive Name Change Policies in Scientific Journals</Title>
+		<Excerpt>Although name changes are common, many scientific journals still lack comprehensive and appropriate policies to deal with them. This oversight has, and continues, to fail transgender people.
+</Excerpt>
+          <MetaData>
+            June 29th, 2021 · 2 mins read
+          </MetaData>
+		</a>
+          <Tags>
+			 <TagLink to={'/tag/lgbtqia/'}>
+				<TagBox>
+				LGBTQIA
+				</TagBox>
+			 </TagLink>
+			 <TagLink to={'/tag/ethics/'}>
+				<TagBox>
+				ethics
+				</TagBox>
+			 </TagLink>
+			 <TagLink to={'/tag/publishing/'}>
+				<TagBox>
+				publishing
+				</TagBox>
+			 </TagLink>
+          </Tags>
+  </Card>
+		</Box>
+		</Box>
+		  <br />
+		  <br />
+		  <br />
+		  <br />
+		  <br />
+		  <br />
+		  <br />
+		  <br />
+		  <br />
+ 		<HyvorTalk.Embed websiteId={1228} />
 		  <br />
 		  <br />
 	       {<Subscription />}
 		  </LocalContainer>
         </Section>  
-      </Layout>
+     </Layout>
     );
   }
 }

@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, Component } from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
 import styled from '@emotion/styled';
 
@@ -9,6 +9,7 @@ import mediaqueries from '@styles/media';
 import { IAuthor } from '@types';
 
 import { GridLayoutContext } from './Articles.List.Context';
+import App from './App.js';
 
 const authorQuery = graphql`
   {
@@ -44,13 +45,13 @@ const ArticlesHero: React.FC<IAuthor> = ({ authors }) => {
   //`);
   //}
 
+// Scrolling part -----
+// list of items
   return (
     <Section relative id="Articles__Hero">
       <HeadingContainer style={{ maxWidth: `${hero.maxWidth}px` }}>
-		{
-		  // TODO: Add slideshow here
-		}
         <HeroHeading dangerouslySetInnerHTML={{ __html: hero.heading }} />
+		<App />
       </HeadingContainer>
       <SubheadingContainer>
 		{
@@ -83,6 +84,13 @@ const ArticlesHero: React.FC<IAuthor> = ({ authors }) => {
 };
 
 export default ArticlesHero;
+
+export const Menu = (list, selected) =>
+  list.map(el => {
+    const {name} = el;
+
+    return <MenuItem text={name} key={name} selected={selected} />;
+  });
 
 const SubheadingContainer = styled.div`
   display: flex;
