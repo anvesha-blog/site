@@ -1,0 +1,45 @@
+---
+title: 'An Ode to Forgotten Passwords'  
+author: Akhila S  
+date: 2021-07-28
+tags:   
+ - Neuroscience  
+ - Encryption  
+ - Technology     
+hero: ./images/security.png
+slug: forgotten-passwords    
+excerpt: Forgot Password—a familiar line for netizens. Despite many unbreakable-yet-unforgettable-password guides, we fall short of ideal security. Neuroscience saves the day. 
+
+---
+
+Ever had those moments when you've hidden something so well that even you can't remember where it is? That's the not-so-few of the masses when it comes to passwords. Whose birthday did I give the honour to anyway? Dad's, or maybe my pet's? Wait, was it even a birthday? 
+
+Forget birthdays and favourite books; even the most secure passwords have the one pitfall of having to be remembered. Even if you can place it, it just increases the chances of revealing the password under coercion. An age-old effective way to undermine security is by resorting to 'rubber hose attacks'—where the attacker forces the person who knows the code to reveal it under duress. 
+
+ Neuroscientists have come up with various ways to 'safe crack' the human brain using tips from cryptography, but in a first, a cross-disciplinary team of neuroscientists and cryptographers have come up with a novel idea: remove the weakest link in the security system—the human user. Welcome to subconscious encryption. This system relies on implicit memory, the essence of which lies in: "If you don't know your password, you can't tell it to anyone." 
+
+The method was designed by a team led by Hristo Bojinov and Dan Boneh. A good analogy for understanding it is the playing of a song on an instrument. If you've ever played one, you'd know that having learned a piece of music, it will be in your muscle memory, and given the instrument, you could play it with no major mishap. But writing out the sheet music for the same song would comparatively be a challenge. In the same way, learning the password involves a specially designed computer game resembling Guitar Hero, a popular video game. The researchers' game has a similar design, albeit with a slightly less marketable name: SISL (Serial Interception Sequence Learning). 
+
+Similar to a guitar, users would have to hit six buttons—S, D, F, J, K, L— corresponding to each note (made up similar to the E, A, D, G, B, E of the standard tuning) when a circle reaches the bottom of an associated column (fret). During a typical session of 45 minutes, a user will make around 4,000 keystrokes and about 80% of those are subconsciously teaching the user a 30-character password. A word on the password itself: it's a random sequence of 30 letters chosen from these 'notes' with no repeating characters, resulting in a password that is thousands or million times more secure than an average, memorable password. Yet the users don't even realize that they are learning a password, or that there are even repeating sequences. Bojinov states, "If this game were required before, say, getting access to a protected webpage, the software would be able to detect authenticated users from hackers by comparing their speeds on the password sequences versus random sequences that they had not practiced before." 
+
+The team tested SISL on hundreds of participants using Mechanical Turk, a service from Amazon that allows people to earn money for rote computer jobs. The same participants played the game a week after the training. Some of the sequences in the game matched the previously learned password, whereas others were new. The players’ accuracy for the learned sequences was slightly but significantly better than for the unfamiliar sequences. In other words, it was a success: muscle memory gained! 
+
+The pros are obvious. There is reliable access to data without having to remember a complex password explicitly; hackers can't undermine the system by brute force; no legal procedure can order the user to reveal the password because he himself doesn't know it! But there are drawbacks too: it would take playing the game several times for the secret sequence to stick in your brain; it's not clear how many refresher sessions are required to make the sequence last long in your subconscious; and the most bothersome—having to play the game for several minutes to log in is not very feasible to the majority. It's also unclear how many sequences a person would be able to learn at a time. 
+A few companies have expressed their interest in using such a method for password encryption, but the researchers have been hesitant to commercialise SISL without figuring out how to cut down on the cons. They have been vocal on how they want to better understand the limits of subconscious encryption before exploring real-world applications and possibilities. The SISL method as of now is still vulnerable to
+eavesdropping methods of hacking, if not coercion. Building an authentication response to this hurdle would greatly benefit encryption measures. 
+
+The SISL-based Authentication System (SAS) was initially proposed by Bojinov et al. in 2014. Further studies by the University of Twente showed that a short training is enough to create a trained sequence advantage and that the sequence knowledge remains over time. They also found evidence for memory consolidation after hundreds of trials. Future 
+research should potentially include the external validity of SAS, the learning curve, and investigations into the resistance of the SAS against simultaneous multiple attacks. 
+
+-Akhila S, Batch 20
+
+
+Sources:   
+[http://essay.utwente.nl/68573/](http://essay.utwente.nl/68573/)  
+[Neuroscience Meets Cryptography: Crypto Primitives Secure Against Rubber Hose Attacks](https://www.usenix.org/conference/usenixsecurity12/technical-sessions/presentation/bojinov#:~:text=Neuroscience%20Meets%20Cryptography%3A%20Designing%20Crypto%20Primitives%20Secure%20Against%20Rubber%20Hose%20Attacks,-Authors%3A&text=Cryptographic%20systems%20often%20rely%20on,attacker%20to%20reveal%20the%20key.)  
+[Unbreakable Passwords - An unchained melody](https://dis-blog.thalesgroup.com/security/2012/08/07/unbreakable-passwords-an-unchained-melody/)  
+[Performing the unexplainable: Implicit task performance reveals individually reliable sequence learning without explicit knowledge](Performing the unexplainable: Implicit task performance reveals individually reliable sequence learning without explicit knowledge)
+
+[Image source](https://imgs.xkcd.com/comics/security.png)
+
+*This article was the winning entry for the recruitment competition, 2021*
