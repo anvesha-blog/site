@@ -1,7 +1,6 @@
 import React, { useContext, Component } from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
 import styled from '@emotion/styled';
-
 import Section from '@components/Section';
 import Bio from '@components/Bio';
 import Icons from '@icons';
@@ -9,7 +8,7 @@ import mediaqueries from '@styles/media';
 import { IAuthor } from '@types';
 
 import { GridLayoutContext } from './Articles.List.Context';
-import App from './App.js';
+//import App from './App.js';
 
 const authorQuery = graphql`
   {
@@ -51,8 +50,11 @@ const ArticlesHero: React.FC<IAuthor> = ({ authors }) => {
     <Section relative id="Articles__Hero">
       <HeadingContainer style={{ maxWidth: `${hero.maxWidth}px` }}>
         <HeroHeading dangerouslySetInnerHTML={{ __html: hero.heading }} />
-		<App />
       </HeadingContainer>
+		{
+		//<App />
+		}
+		<br/>
       <SubheadingContainer>
 		{
         //<Bio author={featuredAuthor} />
@@ -156,7 +158,7 @@ const HeroHeading = styled.h1`
 
 const LatestArticles = styled.h1`
 	 :before {
-		content: "June 2021 Edition";
+		content: "July 2021 Edition";
       color: ${p => p.theme.colors.primary}; 
 		font-size: 1.6em;
 		font-weight: 500;

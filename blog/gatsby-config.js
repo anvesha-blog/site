@@ -32,7 +32,7 @@ const plugins = [
       basePath: "/",
       authorsPage: true,
       mailchimp: true,
-      pageLength: 6,
+      pageLength: 5,
       tags: true,
       sources: {
         local: true,

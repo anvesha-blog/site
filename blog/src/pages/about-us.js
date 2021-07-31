@@ -86,7 +86,7 @@ const LocalContainer = styled.div`
     color: ${p => p.theme.colors.hyperlink};
 
     &:hover {
-    color: ${p => p.theme.colors.linkhover};
+      text-decoration: underline;
     }
   }
 
@@ -204,21 +204,11 @@ export default class ClientFetchingExample extends Component {
         <Section narrow>
           <LocalContainer>
             <p>
-              Greetings! Welcome to Anvesha, the official science club of <a href="http://www.iisertvm.ac.in">IISER
-              Thiruvananthapuram</a>. In research institutes such as IISER, it is
-              paramount to have a platform where a free exchange of ideas is
-              possible; a platform that delves into the depths of the scientific
-              method. Thus, the Anvesha blog was created!
+              Greetings! Welcome to Exhibit A, the official publication of the Science and Technology Council of the Indian Institute of Science Education and Research, Thiruvananthapuram. In research institutes, it is paramount to have a platform where the free exchange of scientific ideas can take place. We seek to critically examine and report on everything-- from the latest in research to established paradigms, all while being a medium of expression for the students of IISER TVM.
             </p>
-
-            <p>
-              We also have a monthly science newsletter called <a href="/newsletters/">‘Exhibit A’</a>               where we bring to you the latest in science! Our goal has always
-              been to make these platforms as collaborative as possible; we
-              would love to share your content! Send your submissions to <a href="mailto:anveshacontent@gmail.com">anveshacontent@gmail.com</a> (external submissions are more than
-              welcome.)
-            </p>
-
+            <p>We release a <a href="https://www.anveshablog.com/newsletters/">new edition</a> of Exhibit A each month, and also host content on our blog. You can subscribe to Exhibit A at the bottom of this page. We aim to be an inclusive and collaborative venture, and so we welcome submissions from within and outside of IISER TVM. If you would like to contribute, or have your research featured here, reach out to us at <a href="anveshacontent@gmail.com">anveshacontent@gmail.com</a>.  </p>
             <p>So, what are you waiting for?</p>
+
             <br />
             <h2>Our Team</h2>
             <hr
@@ -236,7 +226,7 @@ export default class ClientFetchingExample extends Component {
                 <h2>Ira Zibbu</h2>
                 <h3>Editor-in-Chief, Batch '19</h3>
                 <p>
-		A biologist-in-training who is secretly in love with mathematics, Ira is an outgoing introvert. These days, she funnels her passion for writing into science communication and wants to further examine the world of science and academia through the lens of social justice. Ira has a soft spot for reptiles and frogs, and likes to go on long walks by herself. She also enjoys fashion, dyeing her hair, cooking, cycling, coding and cleaning her room.
+                  A biologist-in-training who is secretly in love with mathematics, Ira is an outgoing introvert. These days, she funnels her passion for writing into science communication and wants to further examine the world of science and academia through the lens of social justice. Ira has a soft spot for reptiles and frogs, and likes to go on long walks by herself. She also enjoys fashion, dyeing her hair, cooking, cycling, coding and cleaning her room.
                 </p>
               </Box>
               <Box
@@ -277,7 +267,7 @@ export default class ClientFetchingExample extends Component {
                 <h3>Founder, Batch '17</h3>
                 <p>
                   A small-town boy from Vellore and shampoo connoisseur, Vishnu grows out his hair just to avoid eye-contact with people. His interests include mathematics, social activism and falling asleep before being able to make coherent lists.
-		          </p>
+                </p>
               </Box>
               <Box
                 p={3}
@@ -583,7 +573,7 @@ export default class ClientFetchingExample extends Component {
                 <h2>Ashley Roby</h2>
                 <h3>Content Creator, Batch '18</h3>
                 <p>
-		          As a voracious reader, Ashley prays everyday that her favourite authors don't run out of creative ideas. In the meanwhile she hopes to become an author and a science writer (who said you can't be both?) When not lost in daydreams, you can find her obsessing over Wes Anderson, Zadie Smith, Ann Patchett, Arundhati Roy and BTS (not necessarily in the same order).</p>
+                  As a voracious reader, Ashley prays everyday that her favourite authors don't run out of creative ideas. In the meanwhile she hopes to become an author and a science writer (who said you can't be both?) When not lost in daydreams, you can find her obsessing over Wes Anderson, Zadie Smith, Ann Patchett, Arundhati Roy and BTS (not necessarily in the same order).</p>
               </Box>
               <Box
                 p={3}
@@ -606,7 +596,7 @@ export default class ClientFetchingExample extends Component {
                 />
               </Box>
             </Flex>
-				<br />
+            <br />
             <Flex>
               <Box flex="1 1 auto">
                 <h2>Aiswarya PS</h2>
@@ -656,7 +646,7 @@ export default class ClientFetchingExample extends Component {
                 <h2>Rithika Ganesan</h2>
                 <h3>Content Creator, Batch '19</h3>
                 <p>
-					 A chamomile tea addict, Rithika aspires to Frusciante-level guitar playing, Atwood-level writing, and Babish-level cooking. She is passionate about social justice, intersectional feminism, and environment conservation. She enjoys coding and hobby electronics, and would like to pursue physics. 
+                  A chamomile tea addict, Rithika aspires to Frusciante-level guitar playing, Atwood-level writing, and Babish-level cooking. She is passionate about social justice, intersectional feminism, and environment conservation. She enjoys coding and hobby electronics, and would like to pursue physics.
                 </p>
               </Box>
               <Box
@@ -691,7 +681,7 @@ export default class ClientFetchingExample extends Component {
               <Box flex="1 1 auto">
                 <h2>Nikhil Alex Verghese</h2>
                 <h3>Newsletter and Social Media Designer, Batch '17</h3>
-                <p>Existential crisis-ist&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;</p> 
+                <p>Existential crisis-ist&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;</p>
               </Box>
               <Box
                 p={3}
@@ -811,8 +801,342 @@ export default class ClientFetchingExample extends Component {
                 <FaEnvelope />
               </a>
             </p>
+            <Flex>
+              <Box flex="1 1 auto">
+                <h2>Devashish Kalmegh</h2>
+                <h3>Website Designer, Batch '20</h3>
+                <p>
+                  A Marvel, Star wars , LOTR, Harry Potter and basically all Franchise movie enthusiast coming from Mumbai. Started his journey with a dream of engineering but went for reasearch field when he found IISER TVM.
+                </p>
+              </Box>
+              <Box
+                p={3}
+                sx={{
+                  position: 'relative',
+                  display: 'grid',
+                  minWidth: '130px',
+                }}
+              >
+                <Image
+                  src={'../Devashish.jpeg'}
+                  width={128}
+                  height={128}
+                  variant="avatar"
+                  sx={{
+                    minWidth: '128px',
+                    borderRadius: 100,
+                    maxWidth: '100%',
+                  }}
+                />
+              </Box>
+            </Flex>
+            <p>
+              Contact: &nbsp;
+              <a href="https://instagram.com/devashish_kalmegh?utm_medium=copy_link  ">
+                <FaInstagram />
+              </a>
+            </p>
+            <Flex>
+              <Box flex="1 1 auto">
+                <h2>Aishwarya K</h2>
+                <h3>Content Creator, Batch'20</h3>
+                <p>
+                  A girl from Kerala with curly and fuzzy hair expresses her enthusiasm for ecology by sitting back and watching the NatGeo. Exploring flavours have always remained one of her favourites. Aishwarya is always passionate about environmental conservation and promoting scientific studies. She enjoys reading books, dancing and listening to music.
+                </p>
+              </Box>
+              <Box
+                p={3}
+                sx={{
+                  position: 'relative',
+                  display: 'grid',
+                  minWidth: '130px',
+                }}
+              >
+                <Image
+                  src={'../AishwaryaK.jpeg'}
+                  width={128}
+                  height={128}
+                  variant="avatar"
+                  sx={{
+                    minWidth: '128px',
+                    borderRadius: 100,
+                    maxWidth: '100%',
+                  }}
+                />
+              </Box>
+            </Flex>
+            <p>
+              Contact: &nbsp;
+              <a href="mailto:aishwaryak20@iisertvm.ac.in">
+                <FaEnvelope />
+              </a>
+              &nbsp;
+              <a href=" https://www.instagram.com/_aish_warya_k/">
+                <FaInstagram />
+              </a>
+            </p>
+
+            <Flex>
+              <Box flex="1 1 auto">
+                <h2>Akhila S</h2>
+                <h3>Content Creator, Batch'20</h3>
+                <p>
+                  Nerdfighter. Loves all things SciFi/Fantasy. Listens to everything from punk rock to Carnatic gems to Disney films OST, but has a special warmth for anything Folk/Indie. Well versed in multiple languages including fandom references and song lyrics. Digs all visual arts. Also, Nerdfighter. When she's not hyping about the F1 weekend or strumming on her guitar (amateur forever), you can find her reading up on everything from Chaos theory to chess endgames and space missions to AI. Akhila's currently on a quest to figure out how to write the funniest haiku.
+                </p>
+              </Box>
+              <Box
+                p={3}
+                sx={{
+                  position: 'relative',
+                  display: 'grid',
+                  minWidth: '130px',
+                }}
+              >
+                <Image
+                  src={'../AkhilaS.jpeg'}
+                  width={128}
+                  height={128}
+                  variant="avatar"
+                  sx={{
+                    minWidth: '128px',
+                    borderRadius: 100,
+                    maxWidth: '100%',
+                  }}
+                />
+              </Box>
+            </Flex>
+            <p>
+              Contact: &nbsp;
+              <a href="mailto:akhilas20@iisertvm.ac.in">
+                <FaEnvelope />
+              </a>
+            </p>
+            <Flex>
+              <Box flex="1 1 auto">
+                <h2>Suhana Nujum</h2>
+                <h3>Content Creator, Batch'20</h3>
+                <p>
+                  An enthusiastic artist and indiscriminate reader of books. Suhana is on a journey of exploring all the sciences. She is most content at beaches and when she has food. Her taste in music is ever-changing but always a bop. Be prepared for awkward hand gestures when she's around.
+                </p>
+              </Box>
+              <Box
+                p={3}
+                sx={{
+                  position: 'relative',
+                  display: 'grid',
+                  minWidth: '130px',
+                }}
+              >
+                <Image
+                  src={'../Suhana.jpeg'}
+                  width={128}
+                  height={128}
+                  variant="avatar"
+                  sx={{
+                    minWidth: '128px',
+                    borderRadius: 100,
+                    maxWidth: '100%',
+                  }}
+                />
+              </Box>
+            </Flex>
+            <p>
+              Contact: &nbsp;
+              <a href="mailto:suhananujum20@iisertvm.ac.in">
+                <FaEnvelope />
+              </a>
+            </p>
+            <Flex>
+              <Box flex="1 1 auto">
+                <h2>Prasmit Ingole</h2>
+                <h3>Audio and Video Editing, Batch'18</h3>
+                <p>
+                  First one from Amravati, a remote location in Maharashtra, to join IISER TVM. He loves to take a snap of unique things.
+                </p>
+              </Box>
+              <Box
+                p={3}
+                sx={{
+                  position: 'relative',
+                  display: 'grid',
+                  minWidth: '130px',
+                }}
+              >
+                <Image
+                  src={'../prasmit.png'}
+                  width={128}
+                  height={128}
+                  variant="avatar"
+                  sx={{
+                    minWidth: '128px',
+                    borderRadius: 100,
+                    maxWidth: '100%',
+                  }}
+                />
+              </Box>
+            </Flex>
+            <p>
+              Contact: &nbsp;
+              <a href="mailto:prasmit18@iisertvm.ac.in">
+                <FaEnvelope />
+              </a>
+            </p>
+            <Flex>
+              <Box flex="1 1 auto">
+                <h2>Abhiraam Masna</h2>
+                <h3>Audio and Video Editing, Batch'20</h3>
+                <p>
+                  An interesting personality and an aspiring physicist, Abhiraam loves trying to comprehend the various phenomenon around him. Often prefers doing things in an unpredictable manner and is someone who'd take a detour just to explore something new.
+                </p>
+              </Box>
+              <Box
+                p={3}
+                sx={{
+                  position: 'relative',
+                  display: 'grid',
+                  minWidth: '130px',
+                }}
+              >
+                <Image
+                  src={'../Abhiraam.jpeg'}
+                  width={128}
+                  height={128}
+                  variant="avatar"
+                  sx={{
+                    minWidth: '128px',
+                    borderRadius: 100,
+                    maxWidth: '100%',
+                  }}
+                />
+              </Box>
+            </Flex>
+            <p>
+              Contact: &nbsp;
+              <a href="mailto:abhiraammasna20@iisertvm.ac.in">
+                <FaEnvelope />
+              </a>
+            </p>
+            <Flex>
+              <Box flex="1 1 auto">
+                <h2>Hruidya C. Babu</h2>
+                <h3>Content Creator, Batch'19</h3>
+                <p>
+
+                  An ardent youth from Kerala , Hruidya (yeah, the spelling is weird) is that imperfect girl whose sense of humour leaves you conked out. She cherishes writing. Space fictions uplift her soul. She watches oodles of K-pop choreos, but is lazy to try them out. Not premium member, but Spotify is her utopia. This McQueen fangirl is crazy for cars. Academia chokes her up, except Chemistry. May God bless her to cross life's reaction barrier and attain her stability soon.
+                </p>
+              </Box>
+              <Box
+                p={3}
+                sx={{
+                  position: 'relative',
+                  display: 'grid',
+                  minWidth: '130px',
+                }}
+              >
+                <Image
+                  src={'../hruidya.jpg'}
+                  width={128}
+                  height={128}
+                  variant="avatar"
+                  sx={{
+                    minWidth: '128px',
+                    borderRadius: 100,
+                    maxWidth: '100%',
+                  }}
+                />
+              </Box>
+            </Flex>
+            <p>
+              Contact: &nbsp;
+              <a href="https://instagram.com/hruidyacb?utm_medium=copy_link">
+                <FaInstagram />
+              </a>
+              &nbsp;
+              <a href="http://www.twitter.com/CHruidya">
+                <FaTwitter />
+              </a>
+              &nbsp;
+              <a href="https://www.facebook.com/hruidyacb">
+                <FaFacebook />
+              </a>
+            </p>
+            <Flex>
+              <Box flex="1 1 auto">
+                <h2>Meega Reji</h2>
+                <h3>Content Creator, Batch'19</h3>
+                <p>
+
+                  An aspiring biologist from Kerala, Meega is interested in genomics and plant biology. She is a movie buff and critic with a passionate interest in mythological thrillers and sci-fi movies. She loves to create poetry and has a special interest in scientific writing. She is an outgoing person who like to spend time with friends and who loves to travel alone by enjoying her favorite playlist.
+                </p>
+              </Box>
+              <Box
+                p={3}
+                sx={{
+                  position: 'relative',
+                  display: 'grid',
+                  minWidth: '130px',
+                }}
+              >
+                <Image
+                  src={'../meega.jpg'}
+                  width={128}
+                  height={128}
+                  variant="avatar"
+                  sx={{
+                    minWidth: '128px',
+                    borderRadius: 100,
+                    maxWidth: '100%',
+                  }}
+                />
+              </Box>
+            </Flex>
+            <p>
+              Contact: &nbsp;
+              <a href="mailto:meega19@iisertvm.ac.in">
+                <FaEnvelope />
+              </a>
+              &nbsp;
+              <a href="https://instagram.com/mi.c_a_h?utm_medium=copy_link">
+                <FaInstagram />
+              </a>
+            </p>
+            <Flex>
+              <Box flex="1 1 auto">
+                <h2>Aswathi K </h2>
+                <h3>Content Creator, Batch'19</h3>
+                <p>
+                  An avid learner, reader, and space enthusiast, Aswathi hopes to become a physicist and be a part of space research. Archaeology and history have always fascinated her while having long power-cut chats with her mother. She also likes to write short stories, articles and poems about people around her and enjoys watching underrated movies. She often loves doing TED talks and enlightening in the most unexpected places, the bathroom being her favourite. She frequently gets judged by her sister for fast-forwarding through the much-celebrated movies. 'Balarama' will always be her most favourite comic. She enjoys the nostalgia of revisiting old cartoons she watched with her sister.
+                </p>
+              </Box>
+              <Box
+                p={3}
+                sx={{
+                  position: 'relative',
+                  display: 'grid',
+                  minWidth: '130px',
+                }}
+              >
+                <Image
+                  src={'../aswathi.jpeg'}
+                  width={128}
+                  height={128}
+                  variant="avatar"
+                  sx={{
+                    minWidth: '128px',
+                    borderRadius: 100,
+                    maxWidth: '100%',
+                  }}
+                />
+              </Box>
+            </Flex>
+            <p>
+              Contact: &nbsp;
+              <a href="mailto:aswathik19@iisertvm.ac.in">
+                <FaEnvelope />
+              </a>
+            </p>
             <br />
-				<br />
+            <br />
             <br />
             <h2>Former Members</h2>
             <hr
@@ -1067,8 +1391,8 @@ export default class ClientFetchingExample extends Component {
                 />
               </Box>
             </Flex>
-				<br />
-				{<Subscription />}
+            <br />
+            {<Subscription />}
           </LocalContainer>
         </Section>
       </Layout>

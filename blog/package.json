@@ -32,6 +32,7 @@
     "react-image-gallery": "^1.0.7",
     "react-modal": "^3.11.2",
     "react-pdf": "^4.1.0",
+    "react-responsive-carousel": "^3.2.19",
     "react-table": "^7.0.4",
     "react-twitter-widgets": "1.7.1",
     "rebass": "^4.0.7",

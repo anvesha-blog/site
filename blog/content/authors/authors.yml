@@ -147,6 +147,52 @@
   social:
     - url: https://www.instagram.com/kratikamazde/
 
+- name: Akhila S
+  bio: |
+    Nerdfighter. Loves all things SciFi/Fantasy. Listens to everything from punk rock to Carnatic gems to Disney films OST, but has a special warmth for anything Folk/Indie. Well versed in multiple languages including fandom references and song lyrics. Digs all visual arts. Also, Nerdfighter. When she's not hyping about the F1 weekend or strumming on her guitar (amateur forever), you can find her reading up on everything from Chaos theory to chess endgames and space missions to AI. Akhila's currently on a quest to figure out how to write the funniest haiku.
+  avatar: ./avatars/AkhilaS.jpeg
+  social:
+    
+- name: Suhana Nujum
+  bio: |
+    An enthusiastic artist and indiscriminate reader of books. Suhana is on a journey of exploring all the sciences. She is most content at beaches and when she has food. Her taste in music is ever-changing but always a bop. Be prepared for awkward hand gestures when she's around.
+  avatar: ./avatars/Suhana.jpeg
+  social:
+
+- name: Prasmit Ingole
+  bio: |
+    First one from Amravati, a remote location in Maharashtra, to join IISER TVM. He loves to take a snap of unique things.
+  avatar: ./avatars/prasmit.png
+  social:
+
+- name: Abhiraam Masna
+  bio: |
+    An interesting personality and an aspiring physicist, Abhiraam loves trying to comprehend the various phenomenon around him. Often prefers doing things in an unpredictable manner and is someone who'd take a detour just to explore something new.
+  avatar: ./avatars/Abhiraam.jpeg
+  social:
+
+- name: Hruidya C. Babu
+  bio: |
+    An ardent youth from Kerala , Hruidya (yeah, the spelling is weird) is that imperfect girl whose sense of humour leaves you conked out. She cherishes writing. Space fictions uplift her soul. She watches oodles of K-pop choreos, but is lazy to try them out. Not premium member, but Spotify is her utopia. This McQueen fangirl is crazy for cars. Academia chokes her up, except Chemistry. May God bless her to cross life's reaction barrier and attain her stability soon.
+  avatar: ./avatars/hruidya.jpg
+  social:
+    - url: https://instagram.com/hruidyacb?utm_medium=copy_link  
+    - url: http://www.twitter.com/CHruidya  
+    - url: https://www.facebook.com/hruidyacb
+
+- name: Meega Reji
+  bio: |
+    An aspiring biologist from Kerala, Meega is interested in genomics and plant biology. She is a movie buff and critic with a passionate interest in mythological thrillers and sci-fi movies. She loves to create poetry and has a special interest in scientific writing. She is an outgoing person who like to spend time with friends and who loves to travel alone by enjoying her favorite playlist.
+  avatar: ./avatars/meega.jpg
+  social:
+    - url: https://instagram.com/mi.c_a_h?utm_medium=copy_link
+
+- name: Aswathi K  
+  bio: |
+    An avid learner, reader, and space enthusiast, Aswathi hopes to become a physicist and be a part of space research. Archaeology and history have always fascinated her while having long power-cut chats with her mother. She also likes to write short stories, articles and poems about people around her and enjoys watching underrated movies. She often loves doing TED talks and enlightening in the most unexpected places, the bathroom being her favourite. She frequently gets judged by her sister for fast-forwarding through the much-celebrated movies. 'Balarama' will always be her most favourite comic. She enjoys the nostalgia of revisiting old cartoons she watched with her sister.
+  avatar: ./avatars/aswathi.jpeg
+  social:
+
 - name: Subrabalan Murugesan
   bio: |
     Have you ever wondered what you’d get when you cross Stephen Hawkings with Rajini? That’s right, you’d get Subri. A sports enthusiast and an aspiring theoretical physicist, Subri juggles around various duties and responsibilities while singing along to old Tamil songs.
