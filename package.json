@@ -24,6 +24,7 @@
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.1.0",
     "@commitlint/travis-cli": "^8.3.5",
+    "@types/react-helmet": "^5.0.15",
     "eslint": "^6.2.2",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-config-prettier": "^6.10.1",
@@ -31,8 +32,7 @@
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-unicorn": "^18.0.1",
     "husky": "^4.2.5",
-    "prettier": "^2.0.4",
-    "@types/react-helmet": "^5.0.15"
+    "prettier": "^2.0.4"
   },
   "eslintConfig": {
     "extends": [
