@@ -21,7 +21,6 @@
     "gatsby-plugin-react-helmet": "^3.3.10",
     "gatsby-plugin-react-helmet-canonical-urls": "^1.4.0",
     "gatsby-source-filesystem": "^2.1.9",
-    "highcharts": "^8.0.4",
     "highcharts-react-official": "^3.0.0",
     "hyvor-talk-react": "^1.0.1",
     "pdfobject": "^2.1.1",
