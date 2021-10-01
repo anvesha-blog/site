@@ -137,11 +137,46 @@ export default class ClientFetchingExample extends Component {
 				 },
 			 }}>
 				<Image src={"../August-2021.jpeg"} />
+				<Heading>September 2021</Heading>
+				<Text color='#111'>Issue 23</Text>
+			 </Card>
+			 </a>
+			 <a href="/page/2">
+			 <Card width={256}
+			 sx={{
+				p: 2,
+				bg: '#dddddd',
+				zIndex: '0',
+				overflow: 'hidden',
+				borderRadius: 5,
+				border: '1px solid #dddddd',
+				boxShadow: '0px 0px 2px rgba(38, 38, 38, 0.2)',
+				':hover':{
+				  transition: 'all 0.2s ease-out',
+				  boxShadow: '0px 4px 8px rgba(58, 58, 58, 0.5)',
+				  top: '-4px',
+				  border: '1px solid #cccccc',
+				  backgroundColor: 'white',
+				},
+				':before':{
+				  content: "",
+				  zIndex: '-1',
+   			  background: '#00838d',
+   			  borderRadius: '32px',
+   			  transform: 'scale(2)',
+   			  transformOrigin: '50% 50%',
+   			  transition: 'transform 0.15s ease-out',
+				 },
+				':hover:before':{
+				  transform: 'scale(2.15)',
+				 },
+			 }}>
+				<Image src={"../August-2021.jpeg"} />
 				<Heading>August 2021</Heading>
 				<Text color='#111'>Issue 22</Text>
 			 </Card>
 			 </a>
-			 <a href="/page/2">
+			 <a href="/page/3">
 			 <Card width={256}
 			 sx={{
 				p: 2,
@@ -176,7 +211,7 @@ export default class ClientFetchingExample extends Component {
 				<Text color='#111'>Issue 21</Text>
 			 </Card>
 			 </a>
-			 <a href="/page/3">
+			 <a href="/page/4">
 			 <Card width={256}
 			 sx={{
 				p: 2,
