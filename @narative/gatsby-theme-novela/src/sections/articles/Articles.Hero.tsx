@@ -158,7 +158,7 @@ const HeroHeading = styled.h1`
 
 const LatestArticles = styled.h1`
 	 :before {
-		content: "January 2022 Edition";
+		content: "";
       color: ${p => p.theme.colors.primary}; 
 		font-size: 1.6em;
 		font-weight: 500;
