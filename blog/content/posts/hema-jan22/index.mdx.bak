@@ -1,17 +1,21 @@
 ---
-title: 'Hello! I'm Prof. Hema Somanathan'
-
+title: "Hello! I'm Prof. Hema Somanathan"
+author: Anvesha
+date: 2022-02-01
+slug: hema-somanathan
 excerpt: From pet scorpions to a Ph.D., read about Prof. Hema Somanathan's story in this illustrated comic, where she recounts her life experiences, both inside and outside the lab.
-
 tags:
-  -ecology
-  -biography
-  -entomology
-  
+  - ecology
+  - biography
+  - entomology
+hero: ./images/img1.png
 ---
 
-![image_1](./images/img1.jpg)
-![image_2](./images/img2.jpg)
-![image_3](./images/img3.jpg)
-![image_4](./images/img4.jpg)
-![image_5](./images/img5.jpg)
+
+![image_2](./images/img2.png)
+
+![image_3](./images/img3.png)
+
+![image_4](./images/img4.png)
+
+![image_5](./images/img5.png)
